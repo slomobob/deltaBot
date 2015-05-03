@@ -5,13 +5,13 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>0ca709ce-3f60-4749-80da-9df4eb6a80c4</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>deltaBot_moi.py</StartupFile>
+    <StartupFile>deltaBot.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>./</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>deltaBot_moi</Name>
-    <RootNamespace>deltaBot_moi</RootNamespace>
+    <Name>deltaBot</Name>
+    <RootNamespace>deltaBot</RootNamespace>
     <IsWindowsApplication>False</IsWindowsApplication>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -23,7 +23,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="deltaBot_moi.py" />
+    <Compile Include="deltaBot.py" />
     <Compile Include="modules\messages.py" />
     <Compile Include="modules\wiki.py" />
     <Compile Include="modules\__init__.py" />
