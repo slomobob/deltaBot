@@ -5,8 +5,8 @@
 *.suo
 *.user
 *.sln.docstates
-**config.json
-!**.example
+**/config.json
+!**/*.example
 
 # Build results
 [Dd]ebug/
