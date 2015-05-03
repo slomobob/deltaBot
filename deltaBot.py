@@ -6,7 +6,7 @@ from settings import *
 DATA = config.read_config_json()                        #need to change these, don't really need these modules except for this
 MESSAGES = messages.read_msg_json()
 
-DELTA_ARR = [u'\u2206',u'\u0394',u'!delta',u'&#8710;',u'&amp;#8710;']  #need to change to config
+DELTA_ARR = [u'\u2206',u'\u0394',u'!delta',u'&#8710;',u'&amp;#8710;']  #need to change to config yay
 TOKEN = u'\u0394'
 USERNAME = DATA["username"]
 PASSWORD = DATA["password"]                                            
