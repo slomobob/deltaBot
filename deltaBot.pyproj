@@ -23,6 +23,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="settings\config.json">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="deltaBot.py" />
     <Compile Include="modules\messages.py" />
     <Compile Include="modules\wiki.py" />
@@ -39,9 +42,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="settings\config.json.example" />
-    <Content Include="settings\config.json">
-      <SubType>Code</SubType>
-    </Content>
     <Content Include="logs\mars.log">
       <SubType>Code</SubType>
     </Content>
