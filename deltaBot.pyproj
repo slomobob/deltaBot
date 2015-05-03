@@ -38,6 +38,7 @@
     <Folder Include="settings\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="settings\config.json.example" />
     <Content Include="settings\config.json">
       <SubType>Code</SubType>
     </Content>
