@@ -1,12 +1,17 @@
-import praw, logging, time, sqlite3
+import praw, logging, time, sqlite3, json
 from logging.handlers import TimedRotatingFileHandler
 from modules import *
 from settings import *
 
-DATA = config.read_config_json()                        #need to change these, don't really need these modules except for this
-MESSAGES = messages.read_msg_json()
+def read_json(path):
+	with open(path,"r") as json_msg:
+		msg = json.load(json_msg)
+	return msg
 
-DELTA_ARR = [u'\u2206',u'\u0394',u'!delta',u'&#8710;',u'&amp;#8710;']  #need to change to config yay
+DATA = read_json("settings/config.json")
+MESSAGES = read_json("settings/messages.json")
+
+DELTA_ARR = [u'\u2206',u'\u0394',u'!delta',u'&#8710;',u'&amp;#8710;']  #need to change to config
 TOKEN = u'\u0394'
 USERNAME = DATA["username"]
 PASSWORD = DATA["password"]                                            
@@ -23,18 +28,23 @@ comments = sub.get_comments()
 
 ### HISTORY ###
 
-historyDB = sqlite3.connect('deltaHistory.db')
+historyDB = sqlite3.connect('commentHistory.db')
 sqlCursor = historyDB.cursor()
-sqlCursor.execute("CREATE TABLE IF NOT EXISTS History(Comment_id TEXT, Date INTEGER);")
+sqlCursor.execute("CREATE TABLE IF NOT EXISTS History(HasDelta INT, Comment_id TEXT, Date INT);")
+sqlCursor.execute("CREATE VIEW IF NOT EXISTS deltaHistory AS SELECT * FROM History WHERE HasDelta=1;")
 historyDB.commit()
 
-def set_History(id):
-    sqlCursor.execute("INSERT INTO History(Comment_id,Date) VALUES ('%s',strftime('%%s','now'));" % id)     #stores comment_id and unix date
+def set_History(id, hasDelta):
+    sqlCursor.execute("INSERT INTO History(Delta,Comment_id,Date) VALUES ({1},'{0}',strftime('%s','now'));".format(id,int(hasDelta)))     #stores comment_id and unix date and hasDelta
     historyDB.commit() 
 
 def get_History(id):
     sqlCursor.execute("SELECT * FROM History WHERE Comment_id='%s';" % id)
-    return sqlCursor.fetchall()
+    return sqlCursor.fetchone()
+
+def get_deltaHistory(id):
+    sqlCursor.execute("SELECT * FROM deltaHistory WHERE Comment_id='%s';" % id)
+    return sqlCursor.fetchone()
 
 ### /HISTORY ###
 
@@ -60,6 +70,12 @@ rootLogger.addHandler(consoleHandler)
 ### /LOGGING ###
 
 ### CHECKS ###
+def not_in_history(id):
+    """mostly just reverses get_history, for convenience's sake"""
+    if get_History(id):
+        set_History(id, False)
+        return False
+    return True
 
 def delta_search(comment):
     logging.debug("searching for deltas in comment %s" % comment.id)
@@ -86,7 +102,7 @@ def correct_author(comment):
 
 def is_unique_delta(comment):
     logging.debug("looking for previous deltas in History")
-    if len(get_History(comment.parent_id)) is not 0:
+    if len(get_deltaHistory(comment.parent_id)) is not 0:
         logging.debug("DELTA NOT UNIQUE")
         return False
     logging.info("DELTA UNIQUE")
@@ -95,18 +111,18 @@ def is_unique_delta(comment):
 def is_proper_length(comment):
     logging.debug("checking if long enough")
     if len(comment.body) < PROPER_LENGTH:
-        if get_History(comment.id) == 0:
-            comment.reply(text=MESSAGES["error_length"])        #TODO: check mail
+        comment.reply(text=MESSAGES["error_length"])        #TODO: check mail
         return False
     return True
 
 ### /CHECKS ###
 
 
-def add_to_history(deltaComment):
-    """add to history AND reply to say so"""
-    logging.info("Adding %s to history" % deltaComment.parent_id)
-    set_History(deltaComment.parent_id)
+def add_to_deltaHistory(deltaComment):
+    """add parent_id to history AND reply to say so"""
+    logging.info("Adding %s to deltaHistory" % deltaComment.parent_id)
+    sqlCursor.execute("UPDATE History SET Delta=1 WHERE Comment_id='%s'" % deltaComment.parent_id)
+    historyDB.commit()
     deltaComment.reply(MESSAGES["confirmation"].format(r.get_info(thing_id=deltaComment.parent_id).author.name))         #GODDAMN maybe should just pass it in
 
 def increment_flair(user,comment):
@@ -123,7 +139,8 @@ def increment_flair(user,comment):
         logging.debug("FLAIRTEXT:\t%s" % flairText)
         sub.set_flair(item=user,flair_text=flairText)
           
-checks = [delta_search,             #checking functions! Order is //IMPORTANT//
+checks = [not_in_history,
+          delta_search,             #checking functions! Order is //IMPORTANT//.  For efficiency, and some assumptions are made with comment replies
           correct_author,        
           is_unique_delta,
           is_proper_length]
