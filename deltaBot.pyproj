@@ -26,7 +26,6 @@
     <Compile Include="deltaBot.py" />
     <Compile Include="modules\wiki.py" />
     <Compile Include="modules\__init__.py" />
-    <Compile Include="settings\__init__.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="logs\" />

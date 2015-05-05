@@ -1,7 +1,6 @@
 import praw, logging, time, sqlite3, json
 from logging.handlers import TimedRotatingFileHandler
 from modules import *
-from settings import *
 
 def read_json(path):
 	with open(path,"r") as json_msg:
@@ -34,7 +33,7 @@ sqlCursor.execute("CREATE TABLE IF NOT EXISTS History(HasDelta INT, Comment_id T
 sqlCursor.execute("CREATE VIEW IF NOT EXISTS deltaHistory AS SELECT * FROM History WHERE HasDelta=1;")
 historyDB.commit()
 
-def set_History(id, hasDelta):
+def set_History(id, hasDelta=False):
     sqlCursor.execute("INSERT INTO History(Delta,Comment_id,Date) VALUES ({1},'{0}',strftime('%s','now'));".format(id,int(hasDelta)))     #stores comment_id and unix date and hasDelta
     historyDB.commit() 
 
@@ -70,10 +69,16 @@ rootLogger.addHandler(consoleHandler)
 ### /LOGGING ###
 
 ### CHECKS ###
-def not_in_history(id):
-    """mostly just reverses get_history, for convenience's sake"""
-    if get_History(id):
-        set_History(id, False)
+def not_in_history(comment):
+    """checks in history for a comment and adds it if not found"""
+    universalID = u't1_' + comment.id           #Why can't comment.parent_id and comment.id jsut return values formatted the same? 
+    if get_History(universalID):
+        set_History(universalID, False)
+        return False
+    return True
+
+def is_not_deleted(comment):
+    if comment.banned_by or comment.author == None:
         return False
     return True
 
@@ -90,6 +95,8 @@ def delta_search(comment):
         elif body[loc-1] not in QUOTES and body[loc+len(delta)] not in QUOTES:
             logging.debug("DELTA FOUND")
             return True
+        elif loc == None:
+            logging.error("NONTYPES ARE BITCHES")
     return False
 
 def correct_author(comment):
@@ -119,8 +126,9 @@ def is_proper_length(comment):
 
 
 def add_to_deltaHistory(deltaComment):
-    """add parent_id to history AND reply to say so"""
+    """sets id Delta to True (+add to history if not found) AND reply to say so"""
     logging.info("Adding %s to deltaHistory" % deltaComment.parent_id)
+    not_in_history(deltaComment.id)
     sqlCursor.execute("UPDATE History SET Delta=1 WHERE Comment_id='%s'" % deltaComment.parent_id)
     historyDB.commit()
     deltaComment.reply(MESSAGES["confirmation"].format(r.get_info(thing_id=deltaComment.parent_id).author.name))         #GODDAMN maybe should just pass it in
@@ -140,6 +148,7 @@ def increment_flair(user,comment):
         sub.set_flair(item=user,flair_text=flairText)
           
 checks = [not_in_history,
+          is_not_deleted,
           delta_search,             #checking functions! Order is //IMPORTANT//.  For efficiency, and some assumptions are made with comment replies
           correct_author,        
           is_unique_delta,
@@ -149,9 +158,9 @@ checks = [not_in_history,
 def main(comments):
     for comment in comments:
         if all(func(comment) for func in checks):                  #True if all checking functions are True. Short circuits, too
-            add_to_history(comment)
-            parentAuthor = r.get_info(thing_id=comment.parent_id).author        #good thing praw caches everything...
-            increment_flair(parentAuthor,comment)           
+            parentComment = r.get_info(thing_id=comment.parent_id)       #good thing praw caches everything...
+            add_to_deltaHistory(parentComment)
+            increment_flair(parentComment.author)           
 
 
 
@@ -163,3 +172,5 @@ while True:
         time.sleep(10)
     except Exception as e:
         logging.error("Error Code %s" % e)
+        logging.error("Waiting for you to notice")
+        time.sleep(30)

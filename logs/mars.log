@@ -1,1147 +1,1146 @@
-02:58:38 AM INFO - Starting new HTTP connection (2): www.reddit.com
-02:58:38 AM DEBUG - "GET /r/slomobob/comments/.json?limit=1024 HTTP/1.1" 200 5392
-02:58:38 AM DEBUG - searching for deltas in comment cqvcvj7
-02:58:38 AM DEBUG - DELTA FOUND
-02:58:38 AM DEBUG - Checking for correct comment author and position of cqvcvj7
-02:58:40 AM DEBUG - "GET /comments/34jwg2/_/cqvcvj7.json HTTP/1.1" 200 1111
-02:58:42 AM DEBUG - "GET /user/slomobob/about/.json HTTP/1.1" 200 None
-02:58:46 AM INFO - Starting new HTTP connection (3): www.reddit.com
-02:58:46 AM DEBUG - "GET /api/info/.json?id=t1_cqvcub7 HTTP/1.1" 200 731
-02:58:48 AM DEBUG - "GET /user/dBotSubIII/about/.json HTTP/1.1" 200 None
-02:58:48 AM DEBUG - looking for previous deltas in history
-02:58:48 AM INFO - DELTA UNIQUE
-02:58:48 AM DEBUG - checking if long enough
-02:58:48 AM INFO - Adding cqvcvj7 to history
-02:58:48 AM INFO - Incrementing flair for dBotSubIII
-02:58:52 AM INFO - Starting new HTTP connection (4): www.reddit.com
-02:58:52 AM DEBUG - "GET /subreddits/mine/moderator/.json?limit=1024 HTTP/1.1" 200 603
-02:58:54 AM DEBUG - "GET /r/slomobob/api/flairlist/.json?name=dBotSubIII HTTP/1.1" 200 None
-02:58:58 AM INFO - Starting new HTTP connection (5): www.reddit.com
-02:58:58 AM DEBUG - "POST /api/flair/.json HTTP/1.1" 200 24
-02:58:58 AM DEBUG - searching for deltas in comment cqvcub7
-02:58:58 AM DEBUG - searching for deltas in comment cqvaj26
-02:58:58 AM DEBUG - DELTA FOUND
-02:58:58 AM DEBUG - Checking for correct comment author and position of cqvaj26
-02:59:00 AM DEBUG - "GET /comments/34fufs/_/cqvaj26.json HTTP/1.1" 200 2073
-02:59:02 AM DEBUG - "GET /api/info/.json?id=t1_cqu82xg HTTP/1.1" 200 1480
-02:59:04 AM DEBUG - "GET /user/dBotSubII/about/.json HTTP/1.1" 200 None
-02:59:04 AM DEBUG - looking for previous deltas in history
-02:59:04 AM INFO - DELTA UNIQUE
-02:59:04 AM DEBUG - checking if long enough
-02:59:04 AM INFO - Adding cqvaj26 to history
-02:59:04 AM INFO - Incrementing flair for dBotSubII
-02:59:08 AM INFO - Starting new HTTP connection (6): www.reddit.com
-02:59:08 AM DEBUG - "GET /r/slomobob/api/flairlist/.json?name=dBotSubII HTTP/1.1" 200 None
-02:59:08 AM DEBUG - FLAIRTEXT:	2Δ
-02:59:12 AM INFO - Starting new HTTP connection (7): www.reddit.com
-02:59:12 AM DEBUG - "POST /api/flair/.json HTTP/1.1" 200 24
-02:59:12 AM DEBUG - searching for deltas in comment cqvagqx
-02:59:12 AM DEBUG - DELTA FOUND
-02:59:12 AM DEBUG - Checking for correct comment author and position of cqvagqx
-02:59:14 AM DEBUG - "GET /comments/34e1xz/_/cqvagqx.json HTTP/1.1" 200 898
-02:59:16 AM DEBUG - "GET /user/slomobob/about/.json HTTP/1.1" 200 None
-02:59:16 AM DEBUG - searching for deltas in comment cqunuli
-02:59:16 AM DEBUG - searching for deltas in comment cqunihj
-02:59:16 AM CRITICAL - delta_search fallthrough
-02:59:16 AM DEBUG - searching for deltas in comment cquhp1y
-02:59:16 AM DEBUG - searching for deltas in comment cqucrup
-02:59:16 AM DEBUG - searching for deltas in comment cqu8gky
-02:59:16 AM DEBUG - searching for deltas in comment cqu8f2s
-02:59:16 AM DEBUG - searching for deltas in comment cqu84vc
-02:59:16 AM DEBUG - DELTA FOUND
-02:59:16 AM DEBUG - Checking for correct comment author and position of cqu84vc
-02:59:20 AM INFO - Starting new HTTP connection (8): www.reddit.com
-02:59:20 AM DEBUG - "GET /comments/34fufs/_/cqu84vc.json HTTP/1.1" 200 2374
-02:59:22 AM DEBUG - "GET /user/dBotSubIII/about/.json HTTP/1.1" 200 None
-02:59:22 AM DEBUG - looking for previous deltas in history
-02:59:22 AM INFO - DELTA UNIQUE
-02:59:22 AM DEBUG - checking if long enough
-02:59:22 AM INFO - Adding cqu84vc to history
-02:59:22 AM INFO - Incrementing flair for dBotSubII
-02:59:26 AM INFO - Starting new HTTP connection (9): www.reddit.com
-02:59:26 AM DEBUG - "GET /r/slomobob/api/flairlist/.json?name=dBotSubII HTTP/1.1" 200 None
-02:59:26 AM DEBUG - FLAIRTEXT:	3Δ
-02:59:30 AM INFO - Starting new HTTP connection (10): www.reddit.com
-02:59:30 AM DEBUG - "POST /api/flair/.json HTTP/1.1" 200 24
-02:59:30 AM DEBUG - searching for deltas in comment cqu82xg
-02:59:30 AM DEBUG - searching for deltas in comment cqtvu4c
-02:59:30 AM DEBUG - searching for deltas in comment cqtvf6k
-02:59:30 AM DEBUG - searching for deltas in comment cqtvcbh
-02:59:30 AM DEBUG - searching for deltas in comment cqtvber
-02:59:30 AM DEBUG - DELTA FOUND
-02:59:30 AM DEBUG - Checking for correct comment author and position of cqtvber
-02:59:32 AM DEBUG - "GET /comments/34e1xz/_/cqtvber.json HTTP/1.1" 200 1542
-02:59:34 AM DEBUG - "GET /api/info/.json?id=t1_cqtv9m2 HTTP/1.1" 200 1946
-02:59:36 AM DEBUG - "GET /user/dBotSub/about/.json HTTP/1.1" 200 None
-02:59:36 AM DEBUG - looking for previous deltas in history
-02:59:36 AM INFO - DELTA UNIQUE
-02:59:36 AM DEBUG - checking if long enough
-02:59:36 AM INFO - Adding cqtvber to history
-02:59:36 AM INFO - Incrementing flair for dBotSub
-02:59:40 AM INFO - Starting new HTTP connection (11): www.reddit.com
-02:59:40 AM DEBUG - "GET /r/slomobob/api/flairlist/.json?name=dBotSub HTTP/1.1" 200 None
-02:59:44 AM INFO - Starting new HTTP connection (12): www.reddit.com
-02:59:44 AM DEBUG - "POST /api/flair/.json HTTP/1.1" 200 24
-02:59:44 AM DEBUG - searching for deltas in comment cqtv9m2
-02:59:44 AM DEBUG - searching for deltas in comment cqtti7w
-02:59:44 AM DEBUG - DELTA FOUND
-02:59:44 AM DEBUG - Checking for correct comment author and position of cqtti7w
-02:59:46 AM DEBUG - "GET /comments/34e1xz/_/cqtti7w.json HTTP/1.1" 200 877
-02:59:48 AM DEBUG - "GET /user/slomobob/about/.json HTTP/1.1" 200 None
-02:59:52 AM INFO - Starting new HTTP connection (13): www.reddit.com
-02:59:52 AM DEBUG - "GET /api/info/.json?id=t1_cqtthub HTTP/1.1" 200 590
-02:59:52 AM DEBUG - looking for previous deltas in history
-02:59:52 AM INFO - DELTA UNIQUE
-02:59:52 AM DEBUG - checking if long enough
-02:59:52 AM INFO - Adding cqtti7w to history
-02:59:52 AM INFO - Incrementing flair for dBotSub
-02:59:54 AM DEBUG - "GET /r/slomobob/api/flairlist/.json?name=dBotSub HTTP/1.1" 200 None
-02:59:54 AM DEBUG - FLAIRTEXT:	2Δ
-02:59:58 AM INFO - Starting new HTTP connection (14): www.reddit.com
-02:59:58 AM DEBUG - "POST /api/flair/.json HTTP/1.1" 200 24
-02:59:58 AM DEBUG - searching for deltas in comment cqtthub
-02:59:58 AM DEBUG - searching for deltas in comment cqttfqy
-02:59:58 AM DEBUG - DELTA FOUND
-02:59:58 AM DEBUG - Checking for correct comment author and position of cqttfqy
-03:00:00 AM DEBUG - "GET /comments/34e1xz/_/cqttfqy.json HTTP/1.1" 200 878
-03:00:02 AM DEBUG - "GET /api/info/.json?id=t1_cqttfhl HTTP/1.1" 200 464
-03:00:02 AM DEBUG - looking for previous deltas in history
-03:00:02 AM INFO - DELTA UNIQUE
-03:00:02 AM DEBUG - checking if long enough
-03:00:02 AM INFO - Adding cqttfqy to history
-03:00:02 AM INFO - Incrementing flair for dBotSub
-03:00:04 AM DEBUG - "GET /r/slomobob/api/flairlist/.json?name=dBotSub HTTP/1.1" 200 None
-03:00:04 AM DEBUG - FLAIRTEXT:	3Δ
-03:00:08 AM INFO - Starting new HTTP connection (15): www.reddit.com
-03:00:08 AM DEBUG - "POST /api/flair/.json HTTP/1.1" 200 24
-03:00:08 AM DEBUG - searching for deltas in comment cqttfhl
-03:00:08 AM DEBUG - searching for deltas in comment cqtqik3
-03:00:08 AM DEBUG - DELTA FOUND
-03:00:08 AM DEBUG - Checking for correct comment author and position of cqtqik3
-03:00:10 AM DEBUG - "GET /comments/34e1xz/_/cqtqik3.json HTTP/1.1" 200 872
-03:00:12 AM DEBUG - "GET /api/info/.json?id=t1_cqtqhrc HTTP/1.1" 200 564
-03:00:14 AM DEBUG - "GET /user/dBotSub/about/.json HTTP/1.1" 200 None
-03:00:14 AM DEBUG - looking for previous deltas in history
-03:00:14 AM INFO - DELTA UNIQUE
-03:00:14 AM DEBUG - checking if long enough
-03:00:14 AM INFO - Adding cqtqik3 to history
-03:00:14 AM INFO - Incrementing flair for dBotSub
-03:00:18 AM INFO - Starting new HTTP connection (16): www.reddit.com
-03:00:18 AM DEBUG - "GET /r/slomobob/api/flairlist/.json?name=dBotSub HTTP/1.1" 200 None
-03:00:18 AM DEBUG - FLAIRTEXT:	4Δ
-03:00:22 AM INFO - Starting new HTTP connection (17): www.reddit.com
-03:00:22 AM DEBUG - "POST /api/flair/.json HTTP/1.1" 200 24
-03:00:22 AM DEBUG - searching for deltas in comment cqtqhyj
-03:00:22 AM DEBUG - searching for deltas in comment cqtqhrc
-03:00:22 AM DEBUG - DELTA FOUND
-03:00:22 AM DEBUG - Checking for correct comment author and position of cqtqhrc
-03:00:24 AM DEBUG - "GET /comments/34e1xz/_/cqtqhrc.json HTTP/1.1" 200 1254
-03:00:26 AM DEBUG - "GET /user/slomobob/about/.json HTTP/1.1" 200 None
-03:00:26 AM DEBUG - searching for deltas in comment cqtqg5v
-03:00:26 AM DEBUG - Waiting 10s
-03:00:38 AM INFO - Starting new HTTP connection (18): www.reddit.com
-03:00:38 AM DEBUG - "GET /r/slomobob/comments/.json?limit=1024 HTTP/1.1" 200 5418
-03:00:38 AM DEBUG - searching for deltas in comment cqvcvj7
-03:00:38 AM DEBUG - DELTA FOUND
-03:00:38 AM DEBUG - Checking for correct comment author and position of cqvcvj7
-03:00:41 AM DEBUG - "GET /comments/34jwg2/_/cqvcvj7.json HTTP/1.1" 200 1110
-03:00:42 AM DEBUG - "GET /api/info/.json?id=t1_cqvcub7 HTTP/1.1" 200 735
-03:00:44 AM DEBUG - "GET /user/dBotSubIII/about/.json HTTP/1.1" 200 None
-03:00:44 AM DEBUG - looking for previous deltas in history
-03:00:44 AM INFO - DELTA UNIQUE
-03:00:44 AM DEBUG - checking if long enough
-03:00:44 AM INFO - Adding cqvcvj7 to history
-03:00:44 AM INFO - Incrementing flair for dBotSubIII
-03:00:48 AM INFO - Starting new HTTP connection (19): www.reddit.com
-03:00:48 AM DEBUG - "GET /r/slomobob/api/flairlist/.json?name=dBotSubIII HTTP/1.1" 200 None
-03:00:48 AM DEBUG - FLAIRTEXT:	2Δ
-03:00:52 AM INFO - Starting new HTTP connection (20): www.reddit.com
-03:00:53 AM DEBUG - "POST /api/flair/.json HTTP/1.1" 200 24
-03:00:53 AM DEBUG - searching for deltas in comment cqvcub7
-03:00:53 AM DEBUG - searching for deltas in comment cqvaj26
-03:00:53 AM DEBUG - DELTA FOUND
-03:00:53 AM DEBUG - Checking for correct comment author and position of cqvaj26
-03:00:54 AM DEBUG - "GET /comments/34fufs/_/cqvaj26.json HTTP/1.1" 200 2075
-03:00:56 AM DEBUG - "GET /api/info/.json?id=t1_cqu82xg HTTP/1.1" 200 1484
-03:00:58 AM DEBUG - "GET /user/dBotSubII/about/.json HTTP/1.1" 200 None
-03:00:58 AM DEBUG - looking for previous deltas in history
-03:00:58 AM INFO - DELTA UNIQUE
-03:00:58 AM DEBUG - checking if long enough
-03:00:58 AM INFO - Adding cqvaj26 to history
-03:00:58 AM INFO - Incrementing flair for dBotSubII
-03:01:02 AM INFO - Starting new HTTP connection (21): www.reddit.com
-03:01:02 AM DEBUG - "GET /r/slomobob/api/flairlist/.json?name=dBotSubII HTTP/1.1" 200 None
-03:01:02 AM DEBUG - FLAIRTEXT:	4Δ
-03:01:06 AM INFO - Starting new HTTP connection (22): www.reddit.com
-03:01:06 AM DEBUG - "POST /api/flair/.json HTTP/1.1" 200 24
-03:01:06 AM DEBUG - searching for deltas in comment cqvagqx
-03:01:06 AM DEBUG - DELTA FOUND
-03:01:06 AM DEBUG - Checking for correct comment author and position of cqvagqx
-03:01:08 AM DEBUG - "GET /comments/34e1xz/_/cqvagqx.json HTTP/1.1" 200 896
-03:01:10 AM DEBUG - "GET /user/slomobob/about/.json HTTP/1.1" 200 None
-03:01:10 AM DEBUG - searching for deltas in comment cqunuli
-03:01:10 AM DEBUG - searching for deltas in comment cqunihj
-03:01:10 AM CRITICAL - delta_search fallthrough
-03:01:10 AM DEBUG - searching for deltas in comment cquhp1y
-03:01:10 AM DEBUG - searching for deltas in comment cqucrup
-03:01:10 AM DEBUG - searching for deltas in comment cqu8gky
-03:01:10 AM DEBUG - searching for deltas in comment cqu8f2s
-03:01:10 AM DEBUG - searching for deltas in comment cqu84vc
-03:01:10 AM DEBUG - DELTA FOUND
-03:01:10 AM DEBUG - Checking for correct comment author and position of cqu84vc
-03:01:14 AM INFO - Starting new HTTP connection (23): www.reddit.com
-03:01:14 AM DEBUG - "GET /comments/34fufs/_/cqu84vc.json HTTP/1.1" 200 2373
-03:01:16 AM DEBUG - "GET /user/dBotSubIII/about/.json HTTP/1.1" 200 None
-03:01:16 AM DEBUG - looking for previous deltas in history
-03:01:16 AM INFO - DELTA UNIQUE
-03:01:16 AM DEBUG - checking if long enough
-03:01:16 AM INFO - Adding cqu84vc to history
-03:01:16 AM INFO - Incrementing flair for dBotSubII
-03:01:20 AM INFO - Starting new HTTP connection (24): www.reddit.com
-03:01:20 AM DEBUG - "GET /r/slomobob/api/flairlist/.json?name=dBotSubII HTTP/1.1" 200 None
-03:01:20 AM DEBUG - FLAIRTEXT:	5Δ
-03:01:24 AM INFO - Starting new HTTP connection (25): www.reddit.com
-03:01:24 AM DEBUG - "POST /api/flair/.json HTTP/1.1" 200 24
-03:01:24 AM DEBUG - searching for deltas in comment cqu82xg
-03:01:24 AM DEBUG - searching for deltas in comment cqtvu4c
-03:01:24 AM DEBUG - searching for deltas in comment cqtvf6k
-03:01:24 AM DEBUG - searching for deltas in comment cqtvcbh
-03:01:24 AM DEBUG - searching for deltas in comment cqtvber
-03:01:24 AM DEBUG - DELTA FOUND
-03:01:24 AM DEBUG - Checking for correct comment author and position of cqtvber
-03:01:26 AM DEBUG - "GET /comments/34e1xz/_/cqtvber.json HTTP/1.1" 200 1544
-03:01:28 AM DEBUG - "GET /api/info/.json?id=t1_cqtv9m2 HTTP/1.1" 200 1954
-03:01:30 AM DEBUG - "GET /user/dBotSub/about/.json HTTP/1.1" 200 None
-03:01:30 AM DEBUG - looking for previous deltas in history
-03:01:30 AM INFO - DELTA UNIQUE
-03:01:30 AM DEBUG - checking if long enough
-03:01:30 AM INFO - Adding cqtvber to history
-03:01:30 AM INFO - Incrementing flair for dBotSub
-03:01:34 AM INFO - Starting new HTTP connection (26): www.reddit.com
-03:01:34 AM DEBUG - "GET /r/slomobob/api/flairlist/.json?name=dBotSub HTTP/1.1" 200 None
-03:01:34 AM DEBUG - FLAIRTEXT:	5Δ
-03:01:38 AM INFO - Starting new HTTP connection (27): www.reddit.com
-03:01:38 AM DEBUG - "POST /api/flair/.json HTTP/1.1" 200 24
-03:01:38 AM DEBUG - searching for deltas in comment cqtv9m2
-03:01:38 AM DEBUG - searching for deltas in comment cqtti7w
-03:01:38 AM DEBUG - DELTA FOUND
-03:01:38 AM DEBUG - Checking for correct comment author and position of cqtti7w
-03:01:40 AM DEBUG - "GET /comments/34e1xz/_/cqtti7w.json HTTP/1.1" 200 879
-03:01:42 AM DEBUG - "GET /user/slomobob/about/.json HTTP/1.1" 200 None
-03:01:46 AM INFO - Starting new HTTP connection (28): www.reddit.com
-03:01:46 AM DEBUG - "GET /api/info/.json?id=t1_cqtthub HTTP/1.1" 200 590
-03:01:46 AM DEBUG - looking for previous deltas in history
-03:01:46 AM INFO - DELTA UNIQUE
-03:01:46 AM DEBUG - checking if long enough
-03:01:46 AM INFO - Adding cqtti7w to history
-03:01:46 AM INFO - Incrementing flair for dBotSub
-03:01:48 AM DEBUG - "GET /r/slomobob/api/flairlist/.json?name=dBotSub HTTP/1.1" 200 None
-03:01:48 AM DEBUG - FLAIRTEXT:	6Δ
-03:01:52 AM INFO - Starting new HTTP connection (29): www.reddit.com
-03:01:52 AM DEBUG - "POST /api/flair/.json HTTP/1.1" 200 24
-03:01:52 AM DEBUG - searching for deltas in comment cqtthub
-03:01:52 AM DEBUG - searching for deltas in comment cqttfqy
-03:01:52 AM DEBUG - DELTA FOUND
-03:01:52 AM DEBUG - Checking for correct comment author and position of cqttfqy
-03:01:54 AM DEBUG - "GET /comments/34e1xz/_/cqttfqy.json HTTP/1.1" 200 879
-03:19:17 AM INFO - Starting new HTTP connection (2): www.reddit.com
-03:19:17 AM DEBUG - "GET /r/slomobob/comments/.json?limit=1024 HTTP/1.1" 200 5419
-03:19:17 AM DEBUG - searching for deltas in comment cqvcvj7
-03:19:17 AM DEBUG - DELTA FOUND
-03:19:17 AM DEBUG - Checking for correct comment author and position of cqvcvj7
-03:19:19 AM DEBUG - "GET /comments/34jwg2/_/cqvcvj7.json HTTP/1.1" 200 1113
-03:19:21 AM DEBUG - "GET /user/slomobob/about/.json HTTP/1.1" 200 None
-03:19:25 AM INFO - Starting new HTTP connection (3): www.reddit.com
-03:19:25 AM DEBUG - "GET /api/info/.json?id=t1_cqvcub7 HTTP/1.1" 200 735
-03:19:27 AM DEBUG - "GET /user/dBotSubIII/about/.json HTTP/1.1" 200 None
-03:19:27 AM DEBUG - looking for previous deltas in history
-03:19:27 AM INFO - DELTA UNIQUE
-03:19:27 AM DEBUG - checking if long enough
-03:19:27 AM INFO - Adding t1_cqvcub7 to history
-03:19:27 AM INFO - Incrementing flair for dBotSubIII
-03:19:31 AM INFO - Starting new HTTP connection (4): www.reddit.com
-03:19:31 AM DEBUG - "GET /subreddits/mine/moderator/.json?limit=1024 HTTP/1.1" 200 604
-03:19:33 AM DEBUG - "GET /r/slomobob/api/flairlist/.json?name=dBotSubIII HTTP/1.1" 200 None
-03:19:33 AM DEBUG - FLAIRTEXT:	3Δ
-03:19:37 AM INFO - Starting new HTTP connection (5): www.reddit.com
-03:19:37 AM DEBUG - "POST /api/flair/.json HTTP/1.1" 200 24
-03:19:37 AM DEBUG - searching for deltas in comment cqvcub7
-03:19:37 AM DEBUG - searching for deltas in comment cqvaj26
-03:19:37 AM DEBUG - DELTA FOUND
-03:19:37 AM DEBUG - Checking for correct comment author and position of cqvaj26
-03:19:39 AM DEBUG - "GET /comments/34fufs/_/cqvaj26.json HTTP/1.1" 200 2075
-03:19:41 AM DEBUG - "GET /api/info/.json?id=t1_cqu82xg HTTP/1.1" 200 1482
-03:19:43 AM DEBUG - "GET /user/dBotSubII/about/.json HTTP/1.1" 200 None
-03:19:43 AM DEBUG - looking for previous deltas in history
-03:19:43 AM INFO - DELTA UNIQUE
-03:19:43 AM DEBUG - checking if long enough
-03:19:43 AM INFO - Adding t1_cqu82xg to history
-03:19:43 AM INFO - Incrementing flair for dBotSubII
-03:19:47 AM INFO - Starting new HTTP connection (6): www.reddit.com
-03:19:47 AM DEBUG - "GET /r/slomobob/api/flairlist/.json?name=dBotSubII HTTP/1.1" 200 None
-03:19:47 AM DEBUG - FLAIRTEXT:	6Δ
-03:19:51 AM INFO - Starting new HTTP connection (7): www.reddit.com
-03:19:51 AM DEBUG - "POST /api/flair/.json HTTP/1.1" 200 24
-03:19:51 AM DEBUG - searching for deltas in comment cqvagqx
-03:19:51 AM DEBUG - DELTA FOUND
-03:19:51 AM DEBUG - Checking for correct comment author and position of cqvagqx
-03:19:53 AM DEBUG - "GET /comments/34e1xz/_/cqvagqx.json HTTP/1.1" 200 897
-03:19:55 AM DEBUG - "GET /user/slomobob/about/.json HTTP/1.1" 200 None
-03:19:55 AM DEBUG - searching for deltas in comment cqunuli
-03:19:55 AM DEBUG - searching for deltas in comment cqunihj
-03:19:55 AM CRITICAL - delta_search fallthrough
-03:19:55 AM DEBUG - searching for deltas in comment cquhp1y
-03:19:55 AM DEBUG - searching for deltas in comment cqucrup
-03:19:55 AM DEBUG - searching for deltas in comment cqu8gky
-03:19:55 AM DEBUG - searching for deltas in comment cqu8f2s
-03:19:55 AM DEBUG - searching for deltas in comment cqu84vc
-03:19:55 AM DEBUG - DELTA FOUND
-03:19:55 AM DEBUG - Checking for correct comment author and position of cqu84vc
-03:19:59 AM INFO - Starting new HTTP connection (8): www.reddit.com
-03:19:59 AM DEBUG - "GET /comments/34fufs/_/cqu84vc.json HTTP/1.1" 200 2373
-03:20:01 AM DEBUG - "GET /user/dBotSubIII/about/.json HTTP/1.1" 200 None
-03:20:01 AM DEBUG - looking for previous deltas in history
-03:20:01 AM DEBUG - DELTA NOT UNIQUE
-03:20:03 AM ERROR - Error Code ('Connection aborted.', ResponseNotReady())
-03:20:05 AM INFO - Starting new HTTP connection (9): www.reddit.com
-03:20:05 AM DEBUG - "GET /r/slomobob/comments/.json?limit=1024 HTTP/1.1" 200 5513
-03:20:05 AM DEBUG - searching for deltas in comment cqwsk2s
-03:20:05 AM DEBUG - searching for deltas in comment cqvcvj7
-03:20:05 AM DEBUG - DELTA FOUND
-03:20:05 AM DEBUG - Checking for correct comment author and position of cqvcvj7
-03:20:07 AM DEBUG - "GET /comments/34jwg2/_/cqvcvj7.json HTTP/1.1" 200 1114
-03:20:09 AM DEBUG - "GET /api/info/.json?id=t1_cqvcub7 HTTP/1.1" 200 732
-03:20:09 AM DEBUG - looking for previous deltas in history
-03:20:09 AM DEBUG - DELTA NOT UNIQUE
-03:20:11 AM DEBUG - "POST /api/comment/.json HTTP/1.1" 200 444
-03:20:11 AM DEBUG - searching for deltas in comment cqvcub7
-03:20:11 AM DEBUG - searching for deltas in comment cqvaj26
-03:20:11 AM DEBUG - DELTA FOUND
-03:20:11 AM DEBUG - Checking for correct comment author and position of cqvaj26
-03:20:13 AM DEBUG - "GET /comments/34fufs/_/cqvaj26.json HTTP/1.1" 200 2076
-03:20:15 AM DEBUG - "GET /api/info/.json?id=t1_cqu82xg HTTP/1.1" 200 1480
-03:20:17 AM DEBUG - "GET /user/dBotSubII/about/.json HTTP/1.1" 200 None
-03:20:17 AM DEBUG - looking for previous deltas in history
-03:20:17 AM DEBUG - DELTA NOT UNIQUE
-03:20:19 AM ERROR - Error Code ('Connection aborted.', ResponseNotReady())
-03:20:19 AM DEBUG - searching for deltas in comment cqwsk2s
-03:20:19 AM DEBUG - searching for deltas in comment cqvcvj7
-03:20:19 AM DEBUG - DELTA FOUND
-03:20:19 AM DEBUG - Checking for correct comment author and position of cqvcvj7
-03:20:19 AM DEBUG - looking for previous deltas in history
-03:20:19 AM DEBUG - DELTA NOT UNIQUE
-03:20:19 AM DEBUG - searching for deltas in comment cqvcub7
-03:20:19 AM DEBUG - searching for deltas in comment cqvaj26
-03:20:19 AM DEBUG - DELTA FOUND
-03:20:19 AM DEBUG - Checking for correct comment author and position of cqvaj26
-03:20:19 AM DEBUG - looking for previous deltas in history
-03:20:19 AM DEBUG - DELTA NOT UNIQUE
-03:20:21 AM INFO - Starting new HTTP connection (10): www.reddit.com
-03:20:21 AM DEBUG - "POST /api/comment/.json HTTP/1.1" 200 446
-03:20:21 AM DEBUG - searching for deltas in comment cqvagqx
-03:20:21 AM DEBUG - DELTA FOUND
-03:20:21 AM DEBUG - Checking for correct comment author and position of cqvagqx
-03:20:21 AM DEBUG - searching for deltas in comment cqunuli
-03:20:21 AM DEBUG - searching for deltas in comment cqunihj
-03:20:21 AM CRITICAL - delta_search fallthrough
-03:20:21 AM DEBUG - searching for deltas in comment cquhp1y
-03:20:21 AM DEBUG - searching for deltas in comment cqucrup
-03:20:21 AM DEBUG - searching for deltas in comment cqu8gky
-03:20:21 AM DEBUG - searching for deltas in comment cqu8f2s
-03:20:21 AM DEBUG - searching for deltas in comment cqu84vc
-03:20:21 AM DEBUG - DELTA FOUND
-03:20:21 AM DEBUG - Checking for correct comment author and position of cqu84vc
-03:20:21 AM DEBUG - looking for previous deltas in history
-03:20:21 AM DEBUG - DELTA NOT UNIQUE
-03:20:23 AM DEBUG - "POST /api/comment/.json HTTP/1.1" 200 444
-03:20:23 AM DEBUG - searching for deltas in comment cqu82xg
-03:20:23 AM DEBUG - searching for deltas in comment cqtvu4c
-03:20:23 AM DEBUG - searching for deltas in comment cqtvf6k
-03:20:23 AM DEBUG - searching for deltas in comment cqtvcbh
-03:20:23 AM DEBUG - searching for deltas in comment cqtvber
-03:20:23 AM DEBUG - DELTA FOUND
-03:20:23 AM DEBUG - Checking for correct comment author and position of cqtvber
-03:20:25 AM DEBUG - "GET /comments/34e1xz/_/cqtvber.json HTTP/1.1" 200 1545
-03:20:27 AM DEBUG - "GET /user/slomobob/about/.json HTTP/1.1" 200 None
-03:20:31 AM INFO - Starting new HTTP connection (11): www.reddit.com
-03:20:31 AM DEBUG - "GET /api/info/.json?id=t1_cqtv9m2 HTTP/1.1" 200 1951
-03:20:33 AM DEBUG - "GET /user/dBotSub/about/.json HTTP/1.1" 200 None
-03:20:33 AM DEBUG - looking for previous deltas in history
-03:20:33 AM INFO - DELTA UNIQUE
-03:20:33 AM DEBUG - checking if long enough
-03:20:33 AM INFO - Adding t1_cqtv9m2 to history
-03:20:33 AM INFO - Incrementing flair for dBotSub
-03:20:37 AM INFO - Starting new HTTP connection (12): www.reddit.com
-03:20:37 AM DEBUG - "GET /r/slomobob/api/flairlist/.json?name=dBotSub HTTP/1.1" 200 None
-03:20:37 AM DEBUG - FLAIRTEXT:	7Δ
-03:20:41 AM INFO - Starting new HTTP connection (13): www.reddit.com
-03:20:41 AM DEBUG - "POST /api/flair/.json HTTP/1.1" 200 24
-03:20:41 AM DEBUG - searching for deltas in comment cqtv9m2
-03:20:41 AM DEBUG - searching for deltas in comment cqtti7w
-03:20:41 AM DEBUG - DELTA FOUND
-03:20:41 AM DEBUG - Checking for correct comment author and position of cqtti7w
-03:20:43 AM DEBUG - "GET /comments/34e1xz/_/cqtti7w.json HTTP/1.1" 200 880
-03:20:45 AM DEBUG - "GET /api/info/.json?id=t1_cqtthub HTTP/1.1" 200 590
-03:20:45 AM DEBUG - looking for previous deltas in history
-03:20:45 AM INFO - DELTA UNIQUE
-03:20:45 AM DEBUG - checking if long enough
-03:20:45 AM INFO - Adding t1_cqtthub to history
-03:20:45 AM INFO - Incrementing flair for dBotSub
-03:20:47 AM DEBUG - "GET /r/slomobob/api/flairlist/.json?name=dBotSub HTTP/1.1" 200 None
-03:20:47 AM DEBUG - FLAIRTEXT:	8Δ
-03:20:51 AM INFO - Starting new HTTP connection (14): www.reddit.com
-03:20:51 AM DEBUG - "POST /api/flair/.json HTTP/1.1" 200 24
-03:20:51 AM DEBUG - searching for deltas in comment cqtthub
-03:20:51 AM DEBUG - searching for deltas in comment cqttfqy
-03:20:51 AM DEBUG - DELTA FOUND
-03:20:51 AM DEBUG - Checking for correct comment author and position of cqttfqy
-03:20:53 AM DEBUG - "GET /comments/34e1xz/_/cqttfqy.json HTTP/1.1" 200 879
-03:20:55 AM DEBUG - "GET /api/info/.json?id=t1_cqttfhl HTTP/1.1" 200 470
-03:20:55 AM DEBUG - looking for previous deltas in history
-03:20:55 AM INFO - DELTA UNIQUE
-03:20:55 AM DEBUG - checking if long enough
-03:20:55 AM INFO - Adding t1_cqttfhl to history
-03:20:55 AM INFO - Incrementing flair for dBotSub
-03:20:57 AM DEBUG - "GET /r/slomobob/api/flairlist/.json?name=dBotSub HTTP/1.1" 200 None
-03:20:57 AM DEBUG - FLAIRTEXT:	9Δ
-03:21:01 AM INFO - Starting new HTTP connection (15): www.reddit.com
-03:21:01 AM DEBUG - "POST /api/flair/.json HTTP/1.1" 200 24
-03:21:01 AM DEBUG - searching for deltas in comment cqttfhl
-03:21:01 AM DEBUG - searching for deltas in comment cqtqik3
-03:21:01 AM DEBUG - DELTA FOUND
-03:21:01 AM DEBUG - Checking for correct comment author and position of cqtqik3
-03:21:03 AM DEBUG - "GET /comments/34e1xz/_/cqtqik3.json HTTP/1.1" 200 874
-03:21:05 AM DEBUG - "GET /user/slomobob/about/.json HTTP/1.1" 200 None
-03:21:09 AM INFO - Starting new HTTP connection (16): www.reddit.com
-03:21:09 AM DEBUG - "GET /api/info/.json?id=t1_cqtqhrc HTTP/1.1" 200 564
-03:21:11 AM DEBUG - "GET /user/dBotSub/about/.json HTTP/1.1" 200 None
-03:21:11 AM DEBUG - looking for previous deltas in history
-03:21:11 AM INFO - DELTA UNIQUE
-03:21:11 AM DEBUG - checking if long enough
-03:21:11 AM INFO - Adding t1_cqtqhrc to history
-03:21:11 AM INFO - Incrementing flair for dBotSub
-03:21:15 AM INFO - Starting new HTTP connection (17): www.reddit.com
-03:21:15 AM DEBUG - "GET /r/slomobob/api/flairlist/.json?name=dBotSub HTTP/1.1" 200 None
-03:21:15 AM DEBUG - FLAIRTEXT:	10Δ
-03:21:19 AM INFO - Starting new HTTP connection (18): www.reddit.com
-03:21:19 AM DEBUG - "POST /api/flair/.json HTTP/1.1" 200 24
-03:21:19 AM DEBUG - searching for deltas in comment cqtqhyj
-03:21:19 AM DEBUG - searching for deltas in comment cqtqhrc
-03:21:19 AM DEBUG - DELTA FOUND
-03:21:19 AM DEBUG - Checking for correct comment author and position of cqtqhrc
-03:21:21 AM DEBUG - "GET /comments/34e1xz/_/cqtqhrc.json HTTP/1.1" 200 1254
-03:21:21 AM DEBUG - searching for deltas in comment cqtqg5v
-03:21:21 AM DEBUG - Waiting 10s
-03:21:31 AM DEBUG - "GET /r/slomobob/comments/.json?limit=1024 HTTP/1.1" 200 5622
-03:21:31 AM DEBUG - searching for deltas in comment cqwsk8x
-03:21:31 AM DEBUG - searching for deltas in comment cqwsk8d
-03:21:31 AM DEBUG - searching for deltas in comment cqwsk7t
-03:21:31 AM DEBUG - searching for deltas in comment cqwsk59
-03:21:31 AM DEBUG - searching for deltas in comment cqwsk2s
-03:21:31 AM DEBUG - searching for deltas in comment cqvcvj7
-03:21:31 AM DEBUG - DELTA FOUND
-03:21:31 AM DEBUG - Checking for correct comment author and position of cqvcvj7
-03:21:33 AM DEBUG - "GET /comments/34jwg2/_/cqvcvj7.json HTTP/1.1" 200 1221
-03:21:35 AM DEBUG - "GET /api/info/.json?id=t1_cqvcub7 HTTP/1.1" 200 735
-03:21:37 AM DEBUG - "GET /user/dBotSubIII/about/.json HTTP/1.1" 200 None
-03:21:37 AM DEBUG - looking for previous deltas in history
-03:21:37 AM DEBUG - DELTA NOT UNIQUE
-03:21:39 AM ERROR - Error Code ('Connection aborted.', ResponseNotReady())
-03:21:39 AM DEBUG - searching for deltas in comment cqwsk8x
-03:21:39 AM DEBUG - searching for deltas in comment cqwsk8d
-03:21:39 AM DEBUG - searching for deltas in comment cqwsk7t
-03:21:39 AM DEBUG - searching for deltas in comment cqwsk59
-03:21:39 AM DEBUG - searching for deltas in comment cqwsk2s
-03:21:39 AM DEBUG - searching for deltas in comment cqvcvj7
-03:21:39 AM DEBUG - DELTA FOUND
-03:21:39 AM DEBUG - Checking for correct comment author and position of cqvcvj7
-03:21:41 AM INFO - Starting new HTTP connection (19): www.reddit.com
-03:21:41 AM DEBUG - "GET /user/slomobob/about/.json HTTP/1.1" 200 None
-03:21:41 AM DEBUG - looking for previous deltas in history
-03:21:41 AM DEBUG - DELTA NOT UNIQUE
-03:21:43 AM ERROR - Error Code ('Connection aborted.', ResponseNotReady())
-03:21:43 AM DEBUG - searching for deltas in comment cqwsk8x
-03:21:43 AM DEBUG - searching for deltas in comment cqwsk8d
-03:21:43 AM DEBUG - searching for deltas in comment cqwsk7t
-03:21:43 AM DEBUG - searching for deltas in comment cqwsk59
-03:21:43 AM DEBUG - searching for deltas in comment cqwsk2s
-03:21:43 AM DEBUG - searching for deltas in comment cqvcvj7
-03:21:43 AM DEBUG - DELTA FOUND
-03:21:43 AM DEBUG - Checking for correct comment author and position of cqvcvj7
-03:21:43 AM DEBUG - looking for previous deltas in history
-03:21:43 AM DEBUG - DELTA NOT UNIQUE
-03:21:45 AM INFO - Starting new HTTP connection (20): www.reddit.com
-03:21:45 AM DEBUG - "POST /api/comment/.json HTTP/1.1" 200 444
-03:21:45 AM DEBUG - searching for deltas in comment cqvcub7
-03:21:45 AM DEBUG - searching for deltas in comment cqvaj26
-03:21:45 AM DEBUG - DELTA FOUND
-03:21:45 AM DEBUG - Checking for correct comment author and position of cqvaj26
-03:21:47 AM DEBUG - "GET /comments/34fufs/_/cqvaj26.json HTTP/1.1" 200 2221
-03:21:49 AM DEBUG - "GET /api/info/.json?id=t1_cqu82xg HTTP/1.1" 200 1483
-03:21:51 AM DEBUG - "GET /user/dBotSubII/about/.json HTTP/1.1" 200 None
-03:21:51 AM DEBUG - looking for previous deltas in history
-03:21:51 AM DEBUG - DELTA NOT UNIQUE
-03:21:53 AM ERROR - Error Code ('Connection aborted.', ResponseNotReady())
-03:21:53 AM DEBUG - searching for deltas in comment cqwsk8x
-03:21:53 AM DEBUG - searching for deltas in comment cqwsk8d
-03:21:53 AM DEBUG - searching for deltas in comment cqwsk7t
-03:21:53 AM DEBUG - searching for deltas in comment cqwsk59
-03:21:53 AM DEBUG - searching for deltas in comment cqwsk2s
-03:21:53 AM DEBUG - searching for deltas in comment cqvcvj7
-03:21:53 AM DEBUG - DELTA FOUND
-03:21:53 AM DEBUG - Checking for correct comment author and position of cqvcvj7
-03:21:53 AM DEBUG - looking for previous deltas in history
-03:21:53 AM DEBUG - DELTA NOT UNIQUE
-03:21:53 AM DEBUG - searching for deltas in comment cqvcub7
-03:21:53 AM DEBUG - searching for deltas in comment cqvaj26
-03:21:53 AM DEBUG - DELTA FOUND
-03:21:53 AM DEBUG - Checking for correct comment author and position of cqvaj26
-03:21:53 AM DEBUG - looking for previous deltas in history
-03:21:53 AM DEBUG - DELTA NOT UNIQUE
-03:21:55 AM INFO - Starting new HTTP connection (21): www.reddit.com
-03:21:55 AM DEBUG - "POST /api/comment/.json HTTP/1.1" 200 446
-03:21:55 AM DEBUG - searching for deltas in comment cqvagqx
-03:21:55 AM DEBUG - DELTA FOUND
-03:21:55 AM DEBUG - Checking for correct comment author and position of cqvagqx
-03:21:57 AM DEBUG - "GET /comments/34e1xz/_/cqvagqx.json HTTP/1.1" 200 897
-03:21:57 AM DEBUG - searching for deltas in comment cqunuli
-03:21:57 AM DEBUG - searching for deltas in comment cqunihj
-03:21:57 AM CRITICAL - delta_search fallthrough
-03:21:57 AM DEBUG - searching for deltas in comment cquhp1y
-03:21:57 AM DEBUG - searching for deltas in comment cqucrup
-03:21:57 AM DEBUG - searching for deltas in comment cqu8gky
-03:21:57 AM DEBUG - searching for deltas in comment cqu8f2s
-03:21:57 AM DEBUG - searching for deltas in comment cqu84vc
-03:21:57 AM DEBUG - DELTA FOUND
-03:21:57 AM DEBUG - Checking for correct comment author and position of cqu84vc
-03:21:59 AM DEBUG - "GET /comments/34fufs/_/cqu84vc.json HTTP/1.1" 200 2475
-03:21:59 AM DEBUG - looking for previous deltas in history
-03:21:59 AM DEBUG - DELTA NOT UNIQUE
-03:22:01 AM DEBUG - "POST /api/comment/.json HTTP/1.1" 200 446
-03:22:01 AM DEBUG - searching for deltas in comment cqu82xg
-03:22:01 AM DEBUG - searching for deltas in comment cqtvu4c
-03:22:01 AM DEBUG - searching for deltas in comment cqtvf6k
-03:22:01 AM DEBUG - searching for deltas in comment cqtvcbh
-03:22:01 AM DEBUG - searching for deltas in comment cqtvber
-03:22:01 AM DEBUG - DELTA FOUND
-03:22:01 AM DEBUG - Checking for correct comment author and position of cqtvber
-03:22:03 AM DEBUG - "GET /comments/34e1xz/_/cqtvber.json HTTP/1.1" 200 1543
-03:33:34 AM INFO - Starting new HTTP connection (2): www.reddit.com
-03:33:34 AM DEBUG - "GET /r/slomobob/comments/.json?limit=1024 HTTP/1.1" 200 5403
-03:33:34 AM DEBUG - searching for deltas in comment cqwsq90
-03:33:34 AM DEBUG - DELTA FOUND
-03:33:34 AM DEBUG - Checking for correct comment author and position of cqwsq90
-03:33:36 AM DEBUG - "GET /comments/34pa3d/_/cqwsq90.json HTTP/1.1" 200 903
-03:33:38 AM DEBUG - "GET /user/slomobob/about/.json HTTP/1.1" 200 None
-03:33:42 AM INFO - Starting new HTTP connection (3): www.reddit.com
-03:33:42 AM DEBUG - "GET /api/info/.json?id=t1_cqwsq16 HTTP/1.1" 200 466
-03:33:44 AM DEBUG - "GET /user/dBotSubII/about/.json HTTP/1.1" 200 None
-03:33:44 AM DEBUG - looking for previous deltas in history
-03:33:44 AM INFO - DELTA UNIQUE
-03:33:44 AM DEBUG - checking if long enough
-03:33:46 AM ERROR - Error Code ('Connection aborted.', ResponseNotReady())
-03:33:46 AM DEBUG - searching for deltas in comment cqwsq90
-03:33:46 AM DEBUG - DELTA FOUND
-03:33:46 AM DEBUG - Checking for correct comment author and position of cqwsq90
-03:33:46 AM DEBUG - looking for previous deltas in history
-03:33:46 AM INFO - DELTA UNIQUE
-03:33:46 AM DEBUG - checking if long enough
-03:33:48 AM INFO - Starting new HTTP connection (4): www.reddit.com
-03:33:48 AM DEBUG - "POST /api/comment/.json HTTP/1.1" 200 642
-03:33:48 AM DEBUG - searching for deltas in comment cqwsq16
-03:33:48 AM DEBUG - searching for deltas in comment cqwsp0f
-03:33:48 AM DEBUG - DELTA FOUND
-03:33:48 AM DEBUG - Checking for correct comment author and position of cqwsp0f
-03:33:50 AM DEBUG - "GET /comments/34pa3d/_/cqwsp0f.json HTTP/1.1" 200 918
-03:33:52 AM DEBUG - "GET /api/info/.json?id=t1_cqwsobt HTTP/1.1" 200 480
-03:33:54 AM DEBUG - "GET /user/dBotSubIII/about/.json HTTP/1.1" 200 None
-03:33:54 AM DEBUG - looking for previous deltas in history
-03:33:54 AM INFO - DELTA UNIQUE
-03:33:54 AM DEBUG - checking if long enough
-03:33:54 AM INFO - Adding t1_cqwsobt to history
-03:33:54 AM INFO - Incrementing flair for dBotSubIII
-03:33:58 AM INFO - Starting new HTTP connection (5): www.reddit.com
-03:33:58 AM DEBUG - "GET /subreddits/mine/moderator/.json?limit=1024 HTTP/1.1" 200 604
-03:34:00 AM DEBUG - "GET /r/slomobob/api/flairlist/.json?name=dBotSubIII HTTP/1.1" 200 None
-03:34:04 AM INFO - Starting new HTTP connection (6): www.reddit.com
-03:34:04 AM DEBUG - "POST /api/flair/.json HTTP/1.1" 200 24
-03:34:04 AM DEBUG - searching for deltas in comment cqwsopo
-03:34:04 AM CRITICAL - delta_search fallthrough
-03:34:04 AM DEBUG - searching for deltas in comment cqwsobt
-03:34:04 AM DEBUG - searching for deltas in comment cqwsl0q
-03:34:04 AM DEBUG - searching for deltas in comment cqwskz3
-03:34:04 AM DEBUG - searching for deltas in comment cqwskyk
-03:34:04 AM DEBUG - searching for deltas in comment cqwskvx
-03:34:04 AM DEBUG - searching for deltas in comment cqwskuh
-03:34:04 AM DEBUG - searching for deltas in comment cqwsk8x
-03:34:04 AM DEBUG - searching for deltas in comment cqwsk8d
-03:34:04 AM DEBUG - searching for deltas in comment cqwsk7t
-03:34:04 AM DEBUG - searching for deltas in comment cqwsk59
-03:34:04 AM DEBUG - searching for deltas in comment cqwsk2s
-03:34:04 AM DEBUG - searching for deltas in comment cqvcub7
-03:34:04 AM DEBUG - searching for deltas in comment cqvaj26
-03:34:04 AM DEBUG - DELTA FOUND
-03:34:04 AM DEBUG - Checking for correct comment author and position of cqvaj26
-03:34:06 AM DEBUG - "GET /comments/34fufs/_/cqvaj26.json HTTP/1.1" 200 2271
-03:34:08 AM DEBUG - "GET /api/info/.json?id=t1_cqu82xg HTTP/1.1" 200 1485
-03:34:08 AM DEBUG - looking for previous deltas in history
-03:34:08 AM DEBUG - DELTA NOT UNIQUE
-03:34:08 AM DEBUG - searching for deltas in comment cqvagqx
-03:34:08 AM DEBUG - DELTA FOUND
-03:34:08 AM DEBUG - Checking for correct comment author and position of cqvagqx
-03:34:10 AM DEBUG - "GET /comments/34e1xz/_/cqvagqx.json HTTP/1.1" 200 902
-03:34:10 AM DEBUG - searching for deltas in comment cqunuli
-03:34:10 AM DEBUG - searching for deltas in comment cqunihj
-03:34:10 AM CRITICAL - delta_search fallthrough
-03:34:10 AM DEBUG - searching for deltas in comment cquhp1y
-03:34:10 AM DEBUG - searching for deltas in comment cqucrup
-03:34:10 AM DEBUG - searching for deltas in comment cqu8gky
-03:34:10 AM DEBUG - searching for deltas in comment cqu8f2s
-03:34:10 AM DEBUG - searching for deltas in comment cqu84vc
-03:34:10 AM DEBUG - DELTA FOUND
-03:34:10 AM DEBUG - Checking for correct comment author and position of cqu84vc
-03:34:12 AM DEBUG - "GET /comments/34fufs/_/cqu84vc.json HTTP/1.1" 200 2500
-03:34:12 AM DEBUG - looking for previous deltas in history
-03:34:12 AM DEBUG - DELTA NOT UNIQUE
-03:34:12 AM DEBUG - searching for deltas in comment cqu82xg
-03:34:12 AM DEBUG - searching for deltas in comment cqtvcbh
-03:34:12 AM DEBUG - searching for deltas in comment cqtv9m2
-03:34:12 AM DEBUG - searching for deltas in comment cqtthub
-03:34:12 AM DEBUG - searching for deltas in comment cqttfhl
-03:34:12 AM DEBUG - searching for deltas in comment cqtqhyj
-03:34:12 AM DEBUG - searching for deltas in comment cqtqhrc
-03:34:12 AM DEBUG - DELTA FOUND
-03:34:12 AM DEBUG - Checking for correct comment author and position of cqtqhrc
-03:34:14 AM DEBUG - "GET /comments/34e1xz/_/cqtqhrc.json HTTP/1.1" 200 1214
-03:34:14 AM DEBUG - Waiting 10s
-03:34:24 AM DEBUG - "GET /r/slomobob/comments/.json?limit=1024 HTTP/1.1" 200 5713
-03:34:24 AM DEBUG - searching for deltas in comment cqwsqn4
-03:34:24 AM DEBUG - searching for deltas in comment cqwsqmj
-03:34:24 AM DEBUG - searching for deltas in comment cqwsq90
-03:34:24 AM DEBUG - DELTA FOUND
-03:34:24 AM DEBUG - Checking for correct comment author and position of cqwsq90
-03:34:26 AM DEBUG - "GET /comments/34pa3d/_/cqwsq90.json HTTP/1.1" 200 1235
-03:34:28 AM DEBUG - "GET /user/slomobob/about/.json HTTP/1.1" 200 None
-03:34:32 AM INFO - Starting new HTTP connection (7): www.reddit.com
-03:34:32 AM DEBUG - "GET /api/info/.json?id=t1_cqwsq16 HTTP/1.1" 200 470
-03:34:34 AM DEBUG - "GET /user/dBotSubII/about/.json HTTP/1.1" 200 None
-03:34:34 AM DEBUG - looking for previous deltas in history
-03:34:34 AM INFO - DELTA UNIQUE
-03:34:34 AM DEBUG - checking if long enough
-03:34:36 AM ERROR - Error Code ('Connection aborted.', ResponseNotReady())
-03:34:36 AM DEBUG - searching for deltas in comment cqwsqn4
-03:34:36 AM DEBUG - searching for deltas in comment cqwsqmj
-03:34:36 AM DEBUG - searching for deltas in comment cqwsq90
-03:34:36 AM DEBUG - DELTA FOUND
-03:34:36 AM DEBUG - Checking for correct comment author and position of cqwsq90
-03:34:36 AM DEBUG - looking for previous deltas in history
-03:34:36 AM INFO - DELTA UNIQUE
-03:34:36 AM DEBUG - checking if long enough
-03:34:38 AM INFO - Starting new HTTP connection (8): www.reddit.com
-03:34:38 AM DEBUG - "POST /api/comment/.json HTTP/1.1" 200 642
-03:34:38 AM DEBUG - searching for deltas in comment cqwsq16
-03:34:38 AM DEBUG - searching for deltas in comment cqwsp0f
-03:34:38 AM DEBUG - DELTA FOUND
-03:34:38 AM DEBUG - Checking for correct comment author and position of cqwsp0f
-03:34:40 AM DEBUG - "GET /comments/34pa3d/_/cqwsp0f.json HTTP/1.1" 200 922
-03:34:42 AM DEBUG - "GET /api/info/.json?id=t1_cqwsobt HTTP/1.1" 200 485
-03:34:44 AM DEBUG - "GET /user/dBotSubIII/about/.json HTTP/1.1" 200 None
-03:34:44 AM DEBUG - looking for previous deltas in history
-03:34:44 AM DEBUG - DELTA NOT UNIQUE
-03:34:44 AM DEBUG - searching for deltas in comment cqwsopo
-03:34:44 AM CRITICAL - delta_search fallthrough
-03:34:44 AM DEBUG - searching for deltas in comment cqwsobt
-03:34:44 AM DEBUG - searching for deltas in comment cqwsl0q
-03:34:44 AM DEBUG - searching for deltas in comment cqwskz3
-03:34:44 AM DEBUG - searching for deltas in comment cqwskyk
-03:34:44 AM DEBUG - searching for deltas in comment cqwskvx
-03:34:44 AM DEBUG - searching for deltas in comment cqwskuh
-03:34:44 AM DEBUG - searching for deltas in comment cqwsk8x
-03:34:44 AM DEBUG - searching for deltas in comment cqwsk8d
-03:34:44 AM DEBUG - searching for deltas in comment cqwsk7t
-03:34:44 AM DEBUG - searching for deltas in comment cqwsk59
-03:34:44 AM DEBUG - searching for deltas in comment cqwsk2s
-03:34:44 AM DEBUG - searching for deltas in comment cqvcub7
-03:34:44 AM DEBUG - searching for deltas in comment cqvaj26
-03:34:44 AM DEBUG - DELTA FOUND
-03:34:44 AM DEBUG - Checking for correct comment author and position of cqvaj26
-03:34:48 AM INFO - Starting new HTTP connection (9): www.reddit.com
-03:34:48 AM DEBUG - "GET /comments/34fufs/_/cqvaj26.json HTTP/1.1" 200 2272
-03:34:50 AM DEBUG - "GET /api/info/.json?id=t1_cqu82xg HTTP/1.1" 200 1485
-03:34:50 AM DEBUG - looking for previous deltas in history
-03:34:50 AM DEBUG - DELTA NOT UNIQUE
-03:34:50 AM DEBUG - searching for deltas in comment cqvagqx
-03:34:50 AM DEBUG - DELTA FOUND
-03:34:50 AM DEBUG - Checking for correct comment author and position of cqvagqx
-03:34:52 AM DEBUG - "GET /comments/34e1xz/_/cqvagqx.json HTTP/1.1" 200 903
-03:34:52 AM DEBUG - searching for deltas in comment cqunuli
-03:34:52 AM DEBUG - searching for deltas in comment cqunihj
-03:34:52 AM CRITICAL - delta_search fallthrough
-03:34:52 AM DEBUG - searching for deltas in comment cquhp1y
-03:34:52 AM DEBUG - searching for deltas in comment cqucrup
-03:34:52 AM DEBUG - searching for deltas in comment cqu8gky
-03:34:52 AM DEBUG - searching for deltas in comment cqu8f2s
-03:34:52 AM DEBUG - searching for deltas in comment cqu84vc
-03:34:52 AM DEBUG - DELTA FOUND
-03:34:52 AM DEBUG - Checking for correct comment author and position of cqu84vc
-03:34:54 AM DEBUG - "GET /comments/34fufs/_/cqu84vc.json HTTP/1.1" 200 2503
-03:34:54 AM DEBUG - looking for previous deltas in history
-03:34:54 AM DEBUG - DELTA NOT UNIQUE
-03:34:54 AM DEBUG - searching for deltas in comment cqu82xg
-03:34:54 AM DEBUG - searching for deltas in comment cqtvcbh
-03:34:54 AM DEBUG - searching for deltas in comment cqtv9m2
-03:34:54 AM DEBUG - searching for deltas in comment cqtthub
-03:34:54 AM DEBUG - searching for deltas in comment cqttfhl
-03:34:54 AM DEBUG - searching for deltas in comment cqtqhyj
-03:34:54 AM DEBUG - searching for deltas in comment cqtqhrc
-03:34:54 AM DEBUG - DELTA FOUND
-03:34:54 AM DEBUG - Checking for correct comment author and position of cqtqhrc
-03:34:56 AM DEBUG - "GET /comments/34e1xz/_/cqtqhrc.json HTTP/1.1" 200 1214
-03:34:56 AM DEBUG - Waiting 10s
-03:35:06 AM DEBUG - "GET /r/slomobob/comments/.json?limit=1024 HTTP/1.1" 200 5777
-03:35:15 AM DEBUG - searching for deltas in comment cqwsr1o
-03:35:15 AM DEBUG - searching for deltas in comment cqwsr0w
-03:35:15 AM DEBUG - searching for deltas in comment cqwsqn4
-03:35:15 AM DEBUG - searching for deltas in comment cqwsqmj
-03:35:15 AM DEBUG - searching for deltas in comment cqwsq90
-03:35:15 AM DEBUG - DELTA FOUND
-03:35:15 AM DEBUG - Checking for correct comment author and position of cqwsq90
-03:35:15 AM DEBUG - "GET /comments/34pa3d/_/cqwsq90.json HTTP/1.1" 200 1302
-04:07:31 AM INFO - Starting new HTTP connection (2): www.reddit.com
-04:07:31 AM DEBUG - "GET /r/slomobob/comments/.json?limit=1024 HTTP/1.1" 200 5778
-04:07:31 AM DEBUG - searching for deltas in comment cqwsr1o
-04:07:31 AM DEBUG - searching for deltas in comment cqwsr0w
-04:07:31 AM DEBUG - searching for deltas in comment cqwsqn4
-04:07:31 AM DEBUG - searching for deltas in comment cqwsqmj
-04:07:31 AM DEBUG - searching for deltas in comment cqwsq90
-04:07:31 AM DEBUG - DELTA FOUND
-04:07:31 AM DEBUG - Checking for correct comment author and position of cqwsq90
-04:07:33 AM DEBUG - "GET /comments/34pa3d/_/cqwsq90.json HTTP/1.1" 200 1298
-04:07:35 AM DEBUG - "GET /user/slomobob/about/.json HTTP/1.1" 200 None
-04:07:39 AM INFO - Starting new HTTP connection (3): www.reddit.com
-04:07:39 AM DEBUG - "GET /api/info/.json?id=t1_cqwsq16 HTTP/1.1" 200 469
-04:07:41 AM DEBUG - "GET /user/dBotSubII/about/.json HTTP/1.1" 200 None
-04:07:41 AM DEBUG - looking for previous deltas in history
-04:07:41 AM INFO - DELTA UNIQUE
-04:07:41 AM DEBUG - checking if long enough
-04:07:43 AM ERROR - Error Code ('Connection aborted.', ResponseNotReady())
-04:07:43 AM DEBUG - searching for deltas in comment cqwsr1o
-04:07:43 AM DEBUG - searching for deltas in comment cqwsr0w
-04:07:43 AM DEBUG - searching for deltas in comment cqwsqn4
-04:07:43 AM DEBUG - searching for deltas in comment cqwsqmj
-04:07:43 AM DEBUG - searching for deltas in comment cqwsq90
-04:07:43 AM DEBUG - DELTA FOUND
-04:07:43 AM DEBUG - Checking for correct comment author and position of cqwsq90
-04:07:43 AM DEBUG - looking for previous deltas in history
-04:07:43 AM INFO - DELTA UNIQUE
-04:07:43 AM DEBUG - checking if long enough
-04:07:45 AM INFO - Starting new HTTP connection (4): www.reddit.com
-04:07:45 AM DEBUG - "POST /api/comment/.json HTTP/1.1" 200 644
-04:07:45 AM DEBUG - searching for deltas in comment cqwsq16
-04:07:45 AM DEBUG - searching for deltas in comment cqwsp0f
-04:07:45 AM DEBUG - DELTA FOUND
-04:07:45 AM DEBUG - Checking for correct comment author and position of cqwsp0f
-04:07:47 AM DEBUG - "GET /comments/34pa3d/_/cqwsp0f.json HTTP/1.1" 200 919
-04:07:49 AM DEBUG - "GET /api/info/.json?id=t1_cqwsobt HTTP/1.1" 200 482
-04:07:51 AM DEBUG - "GET /user/dBotSubIII/about/.json HTTP/1.1" 200 None
-04:07:51 AM DEBUG - looking for previous deltas in history
-04:07:51 AM DEBUG - DELTA NOT UNIQUE
-04:07:51 AM DEBUG - searching for deltas in comment cqwsopo
-04:07:51 AM DEBUG - searching for deltas in comment cqwsobt
-04:07:51 AM DEBUG - searching for deltas in comment cqwsl0q
-04:07:51 AM DEBUG - searching for deltas in comment cqwskz3
-04:07:51 AM DEBUG - searching for deltas in comment cqwskyk
-04:07:51 AM DEBUG - searching for deltas in comment cqwskvx
-04:07:51 AM DEBUG - searching for deltas in comment cqwskuh
-04:07:51 AM DEBUG - searching for deltas in comment cqwsk8x
-04:07:51 AM DEBUG - searching for deltas in comment cqwsk8d
-04:07:51 AM DEBUG - searching for deltas in comment cqwsk7t
-04:07:51 AM DEBUG - searching for deltas in comment cqwsk59
-04:07:51 AM DEBUG - searching for deltas in comment cqwsk2s
-04:07:51 AM DEBUG - searching for deltas in comment cqvcub7
-04:07:51 AM DEBUG - searching for deltas in comment cqvaj26
-04:07:51 AM DEBUG - DELTA FOUND
-04:07:51 AM DEBUG - Checking for correct comment author and position of cqvaj26
-04:07:55 AM INFO - Starting new HTTP connection (5): www.reddit.com
-04:07:55 AM DEBUG - "GET /comments/34fufs/_/cqvaj26.json HTTP/1.1" 200 2272
-04:07:57 AM DEBUG - "GET /api/info/.json?id=t1_cqu82xg HTTP/1.1" 200 1484
-04:07:57 AM DEBUG - looking for previous deltas in history
-04:07:57 AM DEBUG - DELTA NOT UNIQUE
-04:07:57 AM DEBUG - searching for deltas in comment cqvagqx
-04:07:57 AM DEBUG - DELTA FOUND
-04:07:57 AM DEBUG - Checking for correct comment author and position of cqvagqx
-04:07:59 AM DEBUG - "GET /comments/34e1xz/_/cqvagqx.json HTTP/1.1" 200 902
-04:07:59 AM DEBUG - searching for deltas in comment cqunuli
-04:07:59 AM DEBUG - searching for deltas in comment cqunihj
-04:07:59 AM DEBUG - searching for deltas in comment cquhp1y
-04:07:59 AM DEBUG - searching for deltas in comment cqucrup
-04:07:59 AM DEBUG - searching for deltas in comment cqu8gky
-04:07:59 AM DEBUG - searching for deltas in comment cqu8f2s
-04:07:59 AM DEBUG - searching for deltas in comment cqu84vc
-04:07:59 AM DEBUG - DELTA FOUND
-04:07:59 AM DEBUG - Checking for correct comment author and position of cqu84vc
-04:08:01 AM DEBUG - "GET /comments/34fufs/_/cqu84vc.json HTTP/1.1" 200 2504
-04:08:01 AM DEBUG - looking for previous deltas in history
-04:08:01 AM DEBUG - DELTA NOT UNIQUE
-04:08:01 AM DEBUG - searching for deltas in comment cqu82xg
-04:08:01 AM DEBUG - searching for deltas in comment cqtvcbh
-04:08:01 AM DEBUG - searching for deltas in comment cqtv9m2
-04:08:01 AM DEBUG - searching for deltas in comment cqtthub
-04:08:01 AM DEBUG - searching for deltas in comment cqttfhl
-04:08:01 AM DEBUG - searching for deltas in comment cqtqhyj
-04:08:01 AM DEBUG - searching for deltas in comment cqtqhrc
-04:08:01 AM DEBUG - DELTA FOUND
-04:08:01 AM DEBUG - Checking for correct comment author and position of cqtqhrc
-04:08:03 AM DEBUG - "GET /comments/34e1xz/_/cqtqhrc.json HTTP/1.1" 200 1214
-04:08:03 AM DEBUG - Waiting 10s
-04:08:13 AM DEBUG - "GET /r/slomobob/comments/.json?limit=1024 HTTP/1.1" 200 5850
-04:08:14 AM DEBUG - searching for deltas in comment cqwt5l3
-04:08:14 AM DEBUG - searching for deltas in comment cqwt5ki
-04:08:14 AM DEBUG - searching for deltas in comment cqwsr1o
-04:08:14 AM DEBUG - searching for deltas in comment cqwsr0w
-04:08:14 AM DEBUG - searching for deltas in comment cqwsqn4
-04:08:14 AM DEBUG - searching for deltas in comment cqwsqmj
-04:08:14 AM DEBUG - searching for deltas in comment cqwsq90
-04:08:14 AM DEBUG - DELTA FOUND
-04:08:14 AM DEBUG - Checking for correct comment author and position of cqwsq90
-04:08:15 AM DEBUG - "GET /comments/34pa3d/_/cqwsq90.json HTTP/1.1" 200 1367
-04:08:17 AM DEBUG - "GET /user/slomobob/about/.json HTTP/1.1" 200 None
-04:08:21 AM INFO - Starting new HTTP connection (6): www.reddit.com
-04:08:21 AM DEBUG - "GET /api/info/.json?id=t1_cqwsq16 HTTP/1.1" 200 469
-04:08:23 AM DEBUG - "GET /user/dBotSubII/about/.json HTTP/1.1" 200 None
-04:08:23 AM DEBUG - looking for previous deltas in history
-04:08:23 AM INFO - DELTA UNIQUE
-04:08:23 AM DEBUG - checking if long enough
-04:08:25 AM ERROR - Error Code ('Connection aborted.', ResponseNotReady())
-04:08:25 AM DEBUG - searching for deltas in comment cqwt5l3
-04:08:25 AM DEBUG - searching for deltas in comment cqwt5ki
-04:08:25 AM DEBUG - searching for deltas in comment cqwsr1o
-04:08:25 AM DEBUG - searching for deltas in comment cqwsr0w
-04:08:25 AM DEBUG - searching for deltas in comment cqwsqn4
-04:08:25 AM DEBUG - searching for deltas in comment cqwsqmj
-04:08:25 AM DEBUG - searching for deltas in comment cqwsq90
-04:08:25 AM DEBUG - DELTA FOUND
-04:08:25 AM DEBUG - Checking for correct comment author and position of cqwsq90
-04:08:25 AM DEBUG - looking for previous deltas in history
-04:08:25 AM INFO - DELTA UNIQUE
-04:08:25 AM DEBUG - checking if long enough
-04:08:27 AM INFO - Starting new HTTP connection (7): www.reddit.com
-04:08:27 AM DEBUG - "POST /api/comment/.json HTTP/1.1" 200 643
-04:08:27 AM DEBUG - searching for deltas in comment cqwsq16
-04:08:27 AM DEBUG - searching for deltas in comment cqwsp0f
-04:08:27 AM DEBUG - DELTA FOUND
-04:08:27 AM DEBUG - Checking for correct comment author and position of cqwsp0f
-04:08:29 AM DEBUG - "GET /comments/34pa3d/_/cqwsp0f.json HTTP/1.1" 200 920
-04:08:31 AM DEBUG - "GET /api/info/.json?id=t1_cqwsobt HTTP/1.1" 200 483
-04:08:33 AM DEBUG - "GET /user/dBotSubIII/about/.json HTTP/1.1" 200 None
-04:08:33 AM DEBUG - looking for previous deltas in history
-04:08:33 AM DEBUG - DELTA NOT UNIQUE
-04:08:33 AM DEBUG - searching for deltas in comment cqwsopo
-04:08:33 AM DEBUG - searching for deltas in comment cqwsobt
-04:08:33 AM DEBUG - searching for deltas in comment cqwsl0q
-04:08:33 AM DEBUG - searching for deltas in comment cqwskz3
-04:08:33 AM DEBUG - searching for deltas in comment cqwskyk
-04:08:33 AM DEBUG - searching for deltas in comment cqwskvx
-04:08:33 AM DEBUG - searching for deltas in comment cqwskuh
-04:08:33 AM DEBUG - searching for deltas in comment cqwsk8x
-04:08:33 AM DEBUG - searching for deltas in comment cqwsk8d
-04:08:33 AM DEBUG - searching for deltas in comment cqwsk7t
-04:08:33 AM DEBUG - searching for deltas in comment cqwsk59
-04:08:33 AM DEBUG - searching for deltas in comment cqwsk2s
-04:08:33 AM DEBUG - searching for deltas in comment cqvcub7
-04:08:33 AM DEBUG - searching for deltas in comment cqvaj26
-04:08:33 AM DEBUG - DELTA FOUND
-04:08:33 AM DEBUG - Checking for correct comment author and position of cqvaj26
-04:08:37 AM INFO - Starting new HTTP connection (8): www.reddit.com
-04:08:37 AM DEBUG - "GET /comments/34fufs/_/cqvaj26.json HTTP/1.1" 200 2274
-04:08:39 AM DEBUG - "GET /api/info/.json?id=t1_cqu82xg HTTP/1.1" 200 1483
-04:08:39 AM DEBUG - looking for previous deltas in history
-04:08:39 AM DEBUG - DELTA NOT UNIQUE
-04:08:39 AM DEBUG - searching for deltas in comment cqvagqx
-04:08:39 AM DEBUG - DELTA FOUND
-04:08:39 AM DEBUG - Checking for correct comment author and position of cqvagqx
-04:08:41 AM DEBUG - "GET /comments/34e1xz/_/cqvagqx.json HTTP/1.1" 200 903
-04:08:41 AM DEBUG - searching for deltas in comment cqunuli
-04:08:41 AM DEBUG - searching for deltas in comment cqunihj
-04:08:41 AM DEBUG - searching for deltas in comment cquhp1y
-04:08:41 AM DEBUG - searching for deltas in comment cqucrup
-04:08:41 AM DEBUG - searching for deltas in comment cqu8gky
-04:08:41 AM DEBUG - searching for deltas in comment cqu8f2s
-04:08:41 AM DEBUG - searching for deltas in comment cqu84vc
-04:08:41 AM DEBUG - DELTA FOUND
-04:08:41 AM DEBUG - Checking for correct comment author and position of cqu84vc
-04:08:43 AM DEBUG - "GET /comments/34fufs/_/cqu84vc.json HTTP/1.1" 200 2504
-04:08:43 AM DEBUG - looking for previous deltas in history
-04:08:43 AM DEBUG - DELTA NOT UNIQUE
-04:08:43 AM DEBUG - searching for deltas in comment cqu82xg
-04:08:43 AM DEBUG - searching for deltas in comment cqtvcbh
-04:08:43 AM DEBUG - searching for deltas in comment cqtv9m2
-04:08:43 AM DEBUG - searching for deltas in comment cqtthub
-04:08:43 AM DEBUG - searching for deltas in comment cqttfhl
-04:08:43 AM DEBUG - searching for deltas in comment cqtqhyj
-04:08:43 AM DEBUG - searching for deltas in comment cqtqhrc
-04:08:43 AM DEBUG - DELTA FOUND
-04:08:43 AM DEBUG - Checking for correct comment author and position of cqtqhrc
-04:08:45 AM DEBUG - "GET /comments/34e1xz/_/cqtqhrc.json HTTP/1.1" 200 1215
-04:08:45 AM DEBUG - Waiting 10s
-04:08:52 AM DEBUG - "GET /r/slomobob/about/.json HTTP/1.1" 200 508
-04:30:40 AM INFO - Starting new HTTP connection (2): www.reddit.com
-04:30:41 AM DEBUG - "GET /r/slomobob/comments/.json?limit=1024 HTTP/1.1" 200 5887
-04:30:41 AM DEBUG - searching for deltas in comment cqwt5wh
-04:30:41 AM DEBUG - searching for deltas in comment cqwt5l3
-04:30:41 AM DEBUG - searching for deltas in comment cqwt5ki
-04:30:41 AM DEBUG - searching for deltas in comment cqwsr1o
-04:30:41 AM DEBUG - searching for deltas in comment cqwsr0w
-04:30:41 AM DEBUG - searching for deltas in comment cqwsqn4
-04:30:41 AM DEBUG - searching for deltas in comment cqwsqmj
-04:30:41 AM DEBUG - searching for deltas in comment cqwsq90
-04:30:41 AM DEBUG - DELTA FOUND
-04:30:41 AM DEBUG - Checking for correct comment author and position of cqwsq90
-04:30:42 AM DEBUG - "GET /comments/34pa3d/_/cqwsq90.json HTTP/1.1" 200 1399
-04:30:44 AM DEBUG - "GET /user/slomobob/about/.json HTTP/1.1" 200 None
-04:30:48 AM INFO - Starting new HTTP connection (3): www.reddit.com
-04:30:48 AM DEBUG - "GET /api/info/.json?id=t1_cqwsq16 HTTP/1.1" 200 468
-04:30:50 AM DEBUG - "GET /user/dBotSubII/about/.json HTTP/1.1" 200 None
-04:30:50 AM DEBUG - looking for previous deltas in history
-04:30:50 AM INFO - DELTA UNIQUE
-04:30:50 AM DEBUG - checking if long enough
-04:30:50 AM DEBUG - searching for deltas in comment cqwsq16
-04:30:50 AM DEBUG - searching for deltas in comment cqwsp0f
-04:30:50 AM DEBUG - DELTA FOUND
-04:30:50 AM DEBUG - Checking for correct comment author and position of cqwsp0f
-04:30:54 AM INFO - Starting new HTTP connection (4): www.reddit.com
-04:30:54 AM DEBUG - "GET /comments/34pa3d/_/cqwsp0f.json HTTP/1.1" 200 920
-04:30:56 AM DEBUG - "GET /api/info/.json?id=t1_cqwsobt HTTP/1.1" 200 484
-04:30:58 AM DEBUG - "GET /user/dBotSubIII/about/.json HTTP/1.1" 200 None
-04:30:58 AM DEBUG - looking for previous deltas in history
-04:30:58 AM DEBUG - DELTA NOT UNIQUE
-04:30:58 AM DEBUG - searching for deltas in comment cqwsopo
-04:30:58 AM DEBUG - searching for deltas in comment cqwsobt
-04:30:58 AM DEBUG - searching for deltas in comment cqwsl0q
-04:30:58 AM DEBUG - searching for deltas in comment cqwskz3
-04:30:58 AM DEBUG - searching for deltas in comment cqwskyk
-04:30:58 AM DEBUG - searching for deltas in comment cqwskvx
-04:30:58 AM DEBUG - searching for deltas in comment cqwskuh
-04:30:58 AM DEBUG - searching for deltas in comment cqwsk8x
-04:30:58 AM DEBUG - searching for deltas in comment cqwsk8d
-04:30:58 AM DEBUG - searching for deltas in comment cqwsk7t
-04:30:58 AM DEBUG - searching for deltas in comment cqwsk59
-04:30:58 AM DEBUG - searching for deltas in comment cqwsk2s
-04:30:58 AM DEBUG - searching for deltas in comment cqvcub7
-04:30:58 AM DEBUG - searching for deltas in comment cqvaj26
-04:30:58 AM DEBUG - DELTA FOUND
-04:30:58 AM DEBUG - Checking for correct comment author and position of cqvaj26
-04:31:02 AM INFO - Starting new HTTP connection (5): www.reddit.com
-04:31:02 AM DEBUG - "GET /comments/34fufs/_/cqvaj26.json HTTP/1.1" 200 2272
-04:31:04 AM DEBUG - "GET /api/info/.json?id=t1_cqu82xg HTTP/1.1" 200 1486
-04:31:04 AM DEBUG - looking for previous deltas in history
-04:31:04 AM DEBUG - DELTA NOT UNIQUE
-04:31:04 AM DEBUG - searching for deltas in comment cqvagqx
-04:31:04 AM DEBUG - DELTA FOUND
-04:31:04 AM DEBUG - Checking for correct comment author and position of cqvagqx
-04:31:06 AM DEBUG - "GET /comments/34e1xz/_/cqvagqx.json HTTP/1.1" 200 902
-04:31:06 AM DEBUG - searching for deltas in comment cqunuli
-04:31:06 AM DEBUG - searching for deltas in comment cqunihj
-04:31:06 AM DEBUG - searching for deltas in comment cquhp1y
-04:31:06 AM DEBUG - searching for deltas in comment cqucrup
-04:31:06 AM DEBUG - searching for deltas in comment cqu8gky
-04:31:06 AM DEBUG - searching for deltas in comment cqu8f2s
-04:31:06 AM DEBUG - searching for deltas in comment cqu84vc
-04:31:06 AM DEBUG - DELTA FOUND
-04:31:06 AM DEBUG - Checking for correct comment author and position of cqu84vc
-04:31:08 AM DEBUG - "GET /comments/34fufs/_/cqu84vc.json HTTP/1.1" 200 2504
-04:31:08 AM DEBUG - looking for previous deltas in history
-04:31:08 AM DEBUG - DELTA NOT UNIQUE
-04:31:08 AM DEBUG - searching for deltas in comment cqu82xg
-04:31:08 AM DEBUG - searching for deltas in comment cqtvcbh
-04:31:08 AM DEBUG - searching for deltas in comment cqtv9m2
-04:31:08 AM DEBUG - searching for deltas in comment cqtthub
-04:31:08 AM DEBUG - searching for deltas in comment cqttfhl
-04:31:08 AM DEBUG - searching for deltas in comment cqtqhyj
-04:31:08 AM DEBUG - searching for deltas in comment cqtqhrc
-04:31:08 AM DEBUG - DELTA FOUND
-04:31:08 AM DEBUG - Checking for correct comment author and position of cqtqhrc
-04:31:10 AM DEBUG - "GET /comments/34e1xz/_/cqtqhrc.json HTTP/1.1" 200 1215
-04:31:10 AM DEBUG - Waiting 10s
-04:31:21 AM DEBUG - "GET /r/slomobob/comments/.json?limit=1024 HTTP/1.1" 200 5888
-04:31:21 AM DEBUG - searching for deltas in comment cqwt5wh
-04:31:21 AM DEBUG - searching for deltas in comment cqwt5l3
-04:31:21 AM DEBUG - searching for deltas in comment cqwt5ki
-04:31:21 AM DEBUG - searching for deltas in comment cqwsr1o
-04:31:21 AM DEBUG - searching for deltas in comment cqwsr0w
-04:31:21 AM DEBUG - searching for deltas in comment cqwsqn4
-04:31:21 AM DEBUG - searching for deltas in comment cqwsqmj
-04:31:21 AM DEBUG - searching for deltas in comment cqwsq90
-04:31:21 AM DEBUG - DELTA FOUND
-04:31:21 AM DEBUG - Checking for correct comment author and position of cqwsq90
-04:31:23 AM DEBUG - "GET /comments/34pa3d/_/cqwsq90.json HTTP/1.1" 200 1400
-04:31:24 AM DEBUG - "GET /user/slomobob/about/.json HTTP/1.1" 200 None
-04:31:28 AM INFO - Starting new HTTP connection (6): www.reddit.com
-04:31:28 AM DEBUG - "GET /api/info/.json?id=t1_cqwsq16 HTTP/1.1" 200 468
-04:31:30 AM DEBUG - "GET /user/dBotSubII/about/.json HTTP/1.1" 200 None
-04:31:30 AM DEBUG - looking for previous deltas in history
-04:31:30 AM INFO - DELTA UNIQUE
-04:31:30 AM DEBUG - checking if long enough
-04:31:30 AM DEBUG - searching for deltas in comment cqwsq16
-04:31:30 AM DEBUG - searching for deltas in comment cqwsp0f
-04:31:30 AM DEBUG - DELTA FOUND
-04:31:30 AM DEBUG - Checking for correct comment author and position of cqwsp0f
-04:31:34 AM INFO - Starting new HTTP connection (7): www.reddit.com
-04:31:35 AM DEBUG - "GET /comments/34pa3d/_/cqwsp0f.json HTTP/1.1" 200 916
-04:31:36 AM DEBUG - "GET /api/info/.json?id=t1_cqwsobt HTTP/1.1" 200 485
-04:31:38 AM DEBUG - "GET /user/dBotSubIII/about/.json HTTP/1.1" 200 None
-04:31:38 AM DEBUG - looking for previous deltas in history
-04:31:38 AM DEBUG - DELTA NOT UNIQUE
-04:31:38 AM DEBUG - searching for deltas in comment cqwsopo
-04:31:38 AM DEBUG - searching for deltas in comment cqwsobt
-04:31:38 AM DEBUG - searching for deltas in comment cqwsl0q
-04:31:38 AM DEBUG - searching for deltas in comment cqwskz3
-04:31:38 AM DEBUG - searching for deltas in comment cqwskyk
-04:31:38 AM DEBUG - searching for deltas in comment cqwskvx
-04:31:38 AM DEBUG - searching for deltas in comment cqwskuh
-04:31:38 AM DEBUG - searching for deltas in comment cqwsk8x
-04:31:38 AM DEBUG - searching for deltas in comment cqwsk8d
-04:31:38 AM DEBUG - searching for deltas in comment cqwsk7t
-04:31:38 AM DEBUG - searching for deltas in comment cqwsk59
-04:31:38 AM DEBUG - searching for deltas in comment cqwsk2s
-04:31:38 AM DEBUG - searching for deltas in comment cqvcub7
-04:31:38 AM DEBUG - searching for deltas in comment cqvaj26
-04:31:38 AM DEBUG - DELTA FOUND
-04:31:38 AM DEBUG - Checking for correct comment author and position of cqvaj26
-04:31:42 AM INFO - Starting new HTTP connection (8): www.reddit.com
-04:31:43 AM DEBUG - "GET /comments/34fufs/_/cqvaj26.json HTTP/1.1" 200 2269
-04:31:44 AM DEBUG - "GET /api/info/.json?id=t1_cqu82xg HTTP/1.1" 200 1484
-04:31:44 AM DEBUG - looking for previous deltas in history
-04:31:44 AM DEBUG - DELTA NOT UNIQUE
-04:31:44 AM DEBUG - searching for deltas in comment cqvagqx
-04:31:44 AM DEBUG - DELTA FOUND
-04:31:44 AM DEBUG - Checking for correct comment author and position of cqvagqx
-04:31:46 AM DEBUG - "GET /comments/34e1xz/_/cqvagqx.json HTTP/1.1" 200 903
-04:31:47 AM DEBUG - searching for deltas in comment cqunuli
-04:31:47 AM DEBUG - searching for deltas in comment cqunihj
-04:31:47 AM DEBUG - searching for deltas in comment cquhp1y
-04:31:47 AM DEBUG - searching for deltas in comment cqucrup
-04:31:47 AM DEBUG - searching for deltas in comment cqu8gky
-04:31:47 AM DEBUG - searching for deltas in comment cqu8f2s
-04:31:47 AM DEBUG - searching for deltas in comment cqu84vc
-04:31:47 AM DEBUG - DELTA FOUND
-04:31:47 AM DEBUG - Checking for correct comment author and position of cqu84vc
-04:31:49 AM DEBUG - "GET /comments/34fufs/_/cqu84vc.json HTTP/1.1" 200 2502
-04:31:49 AM DEBUG - looking for previous deltas in history
-04:31:49 AM DEBUG - DELTA NOT UNIQUE
-04:31:49 AM DEBUG - searching for deltas in comment cqu82xg
-04:31:49 AM DEBUG - searching for deltas in comment cqtvcbh
-04:31:49 AM DEBUG - searching for deltas in comment cqtv9m2
-04:31:49 AM DEBUG - searching for deltas in comment cqtthub
-04:31:49 AM DEBUG - searching for deltas in comment cqttfhl
-04:31:49 AM DEBUG - searching for deltas in comment cqtqhyj
-04:31:49 AM DEBUG - searching for deltas in comment cqtqhrc
-04:31:49 AM DEBUG - DELTA FOUND
-04:31:49 AM DEBUG - Checking for correct comment author and position of cqtqhrc
-04:31:50 AM DEBUG - "GET /comments/34e1xz/_/cqtqhrc.json HTTP/1.1" 200 1214
-04:31:51 AM DEBUG - Waiting 10s
-04:32:01 AM DEBUG - "GET /r/slomobob/comments/.json?limit=1024 HTTP/1.1" 200 5886
-04:32:01 AM DEBUG - searching for deltas in comment cqwt5wh
-04:32:01 AM DEBUG - searching for deltas in comment cqwt5l3
-04:32:01 AM DEBUG - searching for deltas in comment cqwt5ki
-04:32:01 AM DEBUG - searching for deltas in comment cqwsr1o
-04:32:01 AM DEBUG - searching for deltas in comment cqwsr0w
-04:32:01 AM DEBUG - searching for deltas in comment cqwsqn4
-04:32:01 AM DEBUG - searching for deltas in comment cqwsqmj
-04:32:01 AM DEBUG - searching for deltas in comment cqwsq90
-04:32:01 AM DEBUG - DELTA FOUND
-04:32:01 AM DEBUG - Checking for correct comment author and position of cqwsq90
-04:32:03 AM DEBUG - "GET /comments/34pa3d/_/cqwsq90.json HTTP/1.1" 200 1398
-04:32:05 AM DEBUG - "GET /user/slomobob/about/.json HTTP/1.1" 200 None
-04:32:09 AM INFO - Starting new HTTP connection (9): www.reddit.com
-04:32:09 AM DEBUG - "GET /api/info/.json?id=t1_cqwsq16 HTTP/1.1" 200 470
-04:32:11 AM DEBUG - "GET /user/dBotSubII/about/.json HTTP/1.1" 200 None
-04:32:11 AM DEBUG - looking for previous deltas in history
-04:32:11 AM INFO - DELTA UNIQUE
-04:32:11 AM DEBUG - checking if long enough
-04:32:11 AM DEBUG - searching for deltas in comment cqwsq16
-04:32:11 AM DEBUG - searching for deltas in comment cqwsp0f
-04:32:11 AM DEBUG - DELTA FOUND
-04:32:11 AM DEBUG - Checking for correct comment author and position of cqwsp0f
-04:32:15 AM INFO - Starting new HTTP connection (10): www.reddit.com
-04:32:15 AM DEBUG - "GET /comments/34pa3d/_/cqwsp0f.json HTTP/1.1" 200 923
-04:32:17 AM DEBUG - "GET /api/info/.json?id=t1_cqwsobt HTTP/1.1" 200 482
-04:32:19 AM DEBUG - "GET /user/dBotSubIII/about/.json HTTP/1.1" 200 None
-04:32:19 AM DEBUG - looking for previous deltas in history
-04:32:19 AM DEBUG - DELTA NOT UNIQUE
-04:32:19 AM DEBUG - searching for deltas in comment cqwsopo
-04:32:19 AM DEBUG - searching for deltas in comment cqwsobt
-04:32:19 AM DEBUG - searching for deltas in comment cqwsl0q
-04:32:19 AM DEBUG - searching for deltas in comment cqwskz3
-04:32:19 AM DEBUG - searching for deltas in comment cqwskyk
-04:32:19 AM DEBUG - searching for deltas in comment cqwskvx
-04:32:19 AM DEBUG - searching for deltas in comment cqwskuh
-04:32:19 AM DEBUG - searching for deltas in comment cqwsk8x
-04:32:19 AM DEBUG - searching for deltas in comment cqwsk8d
-04:32:19 AM DEBUG - searching for deltas in comment cqwsk7t
-04:32:19 AM DEBUG - searching for deltas in comment cqwsk59
-04:32:19 AM DEBUG - searching for deltas in comment cqwsk2s
-04:32:19 AM DEBUG - searching for deltas in comment cqvcub7
-04:32:19 AM DEBUG - searching for deltas in comment cqvaj26
-04:32:19 AM DEBUG - DELTA FOUND
-04:32:19 AM DEBUG - Checking for correct comment author and position of cqvaj26
-04:32:23 AM INFO - Starting new HTTP connection (11): www.reddit.com
-04:32:23 AM DEBUG - "GET /comments/34fufs/_/cqvaj26.json HTTP/1.1" 200 2272
-04:32:25 AM DEBUG - "GET /api/info/.json?id=t1_cqu82xg HTTP/1.1" 200 1485
-04:32:25 AM DEBUG - looking for previous deltas in history
-04:32:25 AM DEBUG - DELTA NOT UNIQUE
-04:32:25 AM DEBUG - searching for deltas in comment cqvagqx
-04:32:25 AM DEBUG - DELTA FOUND
-04:32:25 AM DEBUG - Checking for correct comment author and position of cqvagqx
-04:32:27 AM DEBUG - "GET /comments/34e1xz/_/cqvagqx.json HTTP/1.1" 200 902
-04:32:27 AM DEBUG - searching for deltas in comment cqunuli
-04:32:27 AM DEBUG - searching for deltas in comment cqunihj
-04:32:27 AM DEBUG - searching for deltas in comment cquhp1y
-04:32:27 AM DEBUG - searching for deltas in comment cqucrup
-04:32:27 AM DEBUG - searching for deltas in comment cqu8gky
-04:32:27 AM DEBUG - searching for deltas in comment cqu8f2s
-04:32:27 AM DEBUG - searching for deltas in comment cqu84vc
-04:32:27 AM DEBUG - DELTA FOUND
-04:32:27 AM DEBUG - Checking for correct comment author and position of cqu84vc
-04:32:29 AM DEBUG - "GET /comments/34fufs/_/cqu84vc.json HTTP/1.1" 200 2503
-04:32:29 AM DEBUG - looking for previous deltas in history
-04:32:29 AM DEBUG - DELTA NOT UNIQUE
-04:32:29 AM DEBUG - searching for deltas in comment cqu82xg
-04:32:29 AM DEBUG - searching for deltas in comment cqtvcbh
-04:32:29 AM DEBUG - searching for deltas in comment cqtv9m2
-04:32:29 AM DEBUG - searching for deltas in comment cqtthub
-04:32:29 AM DEBUG - searching for deltas in comment cqttfhl
-04:32:29 AM DEBUG - searching for deltas in comment cqtqhyj
-04:32:29 AM DEBUG - searching for deltas in comment cqtqhrc
-04:32:29 AM DEBUG - DELTA FOUND
-04:32:29 AM DEBUG - Checking for correct comment author and position of cqtqhrc
-04:32:31 AM DEBUG - "GET /comments/34e1xz/_/cqtqhrc.json HTTP/1.1" 200 1214
-04:32:31 AM DEBUG - Waiting 10s
-04:32:41 AM DEBUG - "GET /r/slomobob/comments/.json?limit=1024 HTTP/1.1" 200 5925
-04:32:41 AM DEBUG - searching for deltas in comment cqwt5wh
-04:32:41 AM DEBUG - searching for deltas in comment cqwt5l3
-04:32:41 AM DEBUG - searching for deltas in comment cqwt5ki
-04:32:41 AM DEBUG - searching for deltas in comment cqwsr1o
-04:32:41 AM DEBUG - searching for deltas in comment cqwsr0w
-04:32:41 AM DEBUG - searching for deltas in comment cqwsqn4
-04:32:41 AM DEBUG - searching for deltas in comment cqwsqmj
-04:32:41 AM DEBUG - searching for deltas in comment cqwsq90
-04:32:41 AM DEBUG - DELTA FOUND
-04:32:41 AM DEBUG - Checking for correct comment author and position of cqwsq90
-04:32:43 AM DEBUG - "GET /comments/34pa3d/_/cqwsq90.json HTTP/1.1" 200 1426
-04:32:45 AM DEBUG - "GET /user/slomobob/about/.json HTTP/1.1" 200 None
-04:32:49 AM INFO - Starting new HTTP connection (12): www.reddit.com
-04:32:49 AM DEBUG - "GET /api/info/.json?id=t1_cqwsq16 HTTP/1.1" 200 468
-04:32:51 AM DEBUG - "GET /user/dBotSubII/about/.json HTTP/1.1" 200 None
-04:32:51 AM DEBUG - looking for previous deltas in history
-04:32:51 AM INFO - DELTA UNIQUE
-04:32:51 AM DEBUG - checking if long enough
-04:32:51 AM INFO - Adding t1_cqwsq16 to history
-04:32:55 AM INFO - Starting new HTTP connection (13): www.reddit.com
-04:32:55 AM DEBUG - "GET /r/slomobob/about/.json HTTP/1.1" 200 508
-04:34:02 AM INFO - Resetting dropped connection: www.reddit.com
-04:34:03 AM DEBUG - "GET /comments/34pa3d/_/cqwsq90.json HTTP/1.1" 200 1427
-04:34:04 AM DEBUG - "GET /r/slomobob/about/.json HTTP/1.1" 200 508
-04:35:27 AM INFO - Resetting dropped connection: www.reddit.com
-04:35:27 AM DEBUG - "GET /api/info/.json?id=t1_cqwsq16 HTTP/1.1" 200 469
-04:35:29 AM DEBUG - "POST /api/comment/.json HTTP/1.1" 200 604
+03:09:47 AM INFO - Starting new HTTP connection (2): www.reddit.com
+03:09:48 AM DEBUG - "GET /r/slomobob/comments/.json?limit=1024 HTTP/1.1" 200 6119
+03:09:48 AM DEBUG - searching for deltas in comment cqwtgwm
+03:09:48 AM DEBUG - searching for deltas in comment cqwt5wh
+03:09:48 AM DEBUG - searching for deltas in comment cqwt5l3
+03:09:48 AM DEBUG - searching for deltas in comment cqwt5ki
+03:09:48 AM DEBUG - searching for deltas in comment cqwsr1o
+03:09:48 AM DEBUG - searching for deltas in comment cqwsr0w
+03:09:48 AM DEBUG - searching for deltas in comment cqwsqn4
+03:09:48 AM DEBUG - searching for deltas in comment cqwsqmj
+03:09:48 AM DEBUG - searching for deltas in comment cqwsq90
+03:09:48 AM DEBUG - DELTA FOUND
+03:09:48 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:09:50 AM DEBUG - "GET /comments/34pa3d/_/cqwsq90.json HTTP/1.1" 200 1619
+03:09:52 AM DEBUG - "GET /user/slomobob/about/.json HTTP/1.1" 200 None
+03:09:55 AM INFO - Starting new HTTP connection (3): www.reddit.com
+03:09:56 AM DEBUG - "GET /api/info/.json?id=t1_cqwsq16 HTTP/1.1" 200 467
+03:09:58 AM DEBUG - "GET /user/dBotSubII/about/.json HTTP/1.1" 200 None
+03:09:58 AM DEBUG - looking for previous deltas in History
+03:09:58 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:09:58 AM DEBUG - searching for deltas in comment cqwtgwm
+03:09:58 AM DEBUG - searching for deltas in comment cqwt5wh
+03:09:58 AM DEBUG - searching for deltas in comment cqwt5l3
+03:09:58 AM DEBUG - searching for deltas in comment cqwt5ki
+03:09:58 AM DEBUG - searching for deltas in comment cqwsr1o
+03:09:58 AM DEBUG - searching for deltas in comment cqwsr0w
+03:09:58 AM DEBUG - searching for deltas in comment cqwsqn4
+03:09:58 AM DEBUG - searching for deltas in comment cqwsqmj
+03:09:58 AM DEBUG - searching for deltas in comment cqwsq90
+03:09:58 AM DEBUG - DELTA FOUND
+03:09:58 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:09:58 AM DEBUG - looking for previous deltas in History
+03:09:58 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:09:58 AM DEBUG - searching for deltas in comment cqwtgwm
+03:09:58 AM DEBUG - searching for deltas in comment cqwt5wh
+03:09:58 AM DEBUG - searching for deltas in comment cqwt5l3
+03:09:58 AM DEBUG - searching for deltas in comment cqwt5ki
+03:09:58 AM DEBUG - searching for deltas in comment cqwsr1o
+03:09:58 AM DEBUG - searching for deltas in comment cqwsr0w
+03:09:58 AM DEBUG - searching for deltas in comment cqwsqn4
+03:09:58 AM DEBUG - searching for deltas in comment cqwsqmj
+03:09:58 AM DEBUG - searching for deltas in comment cqwsq90
+03:09:58 AM DEBUG - DELTA FOUND
+03:09:58 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:09:58 AM DEBUG - looking for previous deltas in History
+03:09:58 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:09:58 AM DEBUG - searching for deltas in comment cqwtgwm
+03:09:58 AM DEBUG - searching for deltas in comment cqwt5wh
+03:09:58 AM DEBUG - searching for deltas in comment cqwt5l3
+03:09:58 AM DEBUG - searching for deltas in comment cqwt5ki
+03:09:58 AM DEBUG - searching for deltas in comment cqwsr1o
+03:09:58 AM DEBUG - searching for deltas in comment cqwsr0w
+03:09:58 AM DEBUG - searching for deltas in comment cqwsqn4
+03:09:58 AM DEBUG - searching for deltas in comment cqwsqmj
+03:09:58 AM DEBUG - searching for deltas in comment cqwsq90
+03:09:58 AM DEBUG - DELTA FOUND
+03:09:58 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:09:58 AM DEBUG - looking for previous deltas in History
+03:09:58 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:09:58 AM DEBUG - searching for deltas in comment cqwtgwm
+03:09:58 AM DEBUG - searching for deltas in comment cqwt5wh
+03:09:58 AM DEBUG - searching for deltas in comment cqwt5l3
+03:09:58 AM DEBUG - searching for deltas in comment cqwt5ki
+03:09:58 AM DEBUG - searching for deltas in comment cqwsr1o
+03:09:58 AM DEBUG - searching for deltas in comment cqwsr0w
+03:09:58 AM DEBUG - searching for deltas in comment cqwsqn4
+03:09:58 AM DEBUG - searching for deltas in comment cqwsqmj
+03:09:58 AM DEBUG - searching for deltas in comment cqwsq90
+03:09:58 AM DEBUG - DELTA FOUND
+03:09:58 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:09:58 AM DEBUG - looking for previous deltas in History
+03:09:58 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:09:58 AM DEBUG - searching for deltas in comment cqwtgwm
+03:09:58 AM DEBUG - searching for deltas in comment cqwt5wh
+03:09:58 AM DEBUG - searching for deltas in comment cqwt5l3
+03:09:58 AM DEBUG - searching for deltas in comment cqwt5ki
+03:09:58 AM DEBUG - searching for deltas in comment cqwsr1o
+03:09:58 AM DEBUG - searching for deltas in comment cqwsr0w
+03:09:58 AM DEBUG - searching for deltas in comment cqwsqn4
+03:09:58 AM DEBUG - searching for deltas in comment cqwsqmj
+03:09:58 AM DEBUG - searching for deltas in comment cqwsq90
+03:09:58 AM DEBUG - DELTA FOUND
+03:09:58 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:09:58 AM DEBUG - looking for previous deltas in History
+03:09:58 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:09:58 AM DEBUG - searching for deltas in comment cqwtgwm
+03:09:58 AM DEBUG - searching for deltas in comment cqwt5wh
+03:09:58 AM DEBUG - searching for deltas in comment cqwt5l3
+03:09:58 AM DEBUG - searching for deltas in comment cqwt5ki
+03:09:58 AM DEBUG - searching for deltas in comment cqwsr1o
+03:09:58 AM DEBUG - searching for deltas in comment cqwsr0w
+03:09:58 AM DEBUG - searching for deltas in comment cqwsqn4
+03:09:58 AM DEBUG - searching for deltas in comment cqwsqmj
+03:09:58 AM DEBUG - searching for deltas in comment cqwsq90
+03:09:59 AM DEBUG - DELTA FOUND
+03:09:59 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:09:59 AM DEBUG - looking for previous deltas in History
+03:09:59 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:09:59 AM DEBUG - searching for deltas in comment cqwtgwm
+03:09:59 AM DEBUG - searching for deltas in comment cqwt5wh
+03:09:59 AM DEBUG - searching for deltas in comment cqwt5l3
+03:09:59 AM DEBUG - searching for deltas in comment cqwt5ki
+03:09:59 AM DEBUG - searching for deltas in comment cqwsr1o
+03:09:59 AM DEBUG - searching for deltas in comment cqwsr0w
+03:09:59 AM DEBUG - searching for deltas in comment cqwsqn4
+03:09:59 AM DEBUG - searching for deltas in comment cqwsqmj
+03:09:59 AM DEBUG - searching for deltas in comment cqwsq90
+03:09:59 AM DEBUG - DELTA FOUND
+03:09:59 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:09:59 AM DEBUG - looking for previous deltas in History
+03:09:59 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:09:59 AM DEBUG - searching for deltas in comment cqwtgwm
+03:09:59 AM DEBUG - searching for deltas in comment cqwt5wh
+03:09:59 AM DEBUG - searching for deltas in comment cqwt5l3
+03:09:59 AM DEBUG - searching for deltas in comment cqwt5ki
+03:09:59 AM DEBUG - searching for deltas in comment cqwsr1o
+03:09:59 AM DEBUG - searching for deltas in comment cqwsr0w
+03:09:59 AM DEBUG - searching for deltas in comment cqwsqn4
+03:09:59 AM DEBUG - searching for deltas in comment cqwsqmj
+03:09:59 AM DEBUG - searching for deltas in comment cqwsq90
+03:09:59 AM DEBUG - DELTA FOUND
+03:09:59 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:09:59 AM DEBUG - looking for previous deltas in History
+03:09:59 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:09:59 AM DEBUG - searching for deltas in comment cqwtgwm
+03:09:59 AM DEBUG - searching for deltas in comment cqwt5wh
+03:09:59 AM DEBUG - searching for deltas in comment cqwt5l3
+03:09:59 AM DEBUG - searching for deltas in comment cqwt5ki
+03:09:59 AM DEBUG - searching for deltas in comment cqwsr1o
+03:09:59 AM DEBUG - searching for deltas in comment cqwsr0w
+03:09:59 AM DEBUG - searching for deltas in comment cqwsqn4
+03:09:59 AM DEBUG - searching for deltas in comment cqwsqmj
+03:09:59 AM DEBUG - searching for deltas in comment cqwsq90
+03:09:59 AM DEBUG - DELTA FOUND
+03:09:59 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:09:59 AM DEBUG - looking for previous deltas in History
+03:09:59 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:09:59 AM DEBUG - searching for deltas in comment cqwtgwm
+03:09:59 AM DEBUG - searching for deltas in comment cqwt5wh
+03:09:59 AM DEBUG - searching for deltas in comment cqwt5l3
+03:09:59 AM DEBUG - searching for deltas in comment cqwt5ki
+03:09:59 AM DEBUG - searching for deltas in comment cqwsr1o
+03:09:59 AM DEBUG - searching for deltas in comment cqwsr0w
+03:09:59 AM DEBUG - searching for deltas in comment cqwsqn4
+03:09:59 AM DEBUG - searching for deltas in comment cqwsqmj
+03:09:59 AM DEBUG - searching for deltas in comment cqwsq90
+03:09:59 AM DEBUG - DELTA FOUND
+03:09:59 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:09:59 AM DEBUG - looking for previous deltas in History
+03:09:59 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:09:59 AM DEBUG - searching for deltas in comment cqwtgwm
+03:09:59 AM DEBUG - searching for deltas in comment cqwt5wh
+03:09:59 AM DEBUG - searching for deltas in comment cqwt5l3
+03:09:59 AM DEBUG - searching for deltas in comment cqwt5ki
+03:09:59 AM DEBUG - searching for deltas in comment cqwsr1o
+03:09:59 AM DEBUG - searching for deltas in comment cqwsr0w
+03:09:59 AM DEBUG - searching for deltas in comment cqwsqn4
+03:09:59 AM DEBUG - searching for deltas in comment cqwsqmj
+03:09:59 AM DEBUG - searching for deltas in comment cqwsq90
+03:09:59 AM DEBUG - DELTA FOUND
+03:09:59 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:09:59 AM DEBUG - looking for previous deltas in History
+03:09:59 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:09:59 AM DEBUG - searching for deltas in comment cqwtgwm
+03:09:59 AM DEBUG - searching for deltas in comment cqwt5wh
+03:09:59 AM DEBUG - searching for deltas in comment cqwt5l3
+03:09:59 AM DEBUG - searching for deltas in comment cqwt5ki
+03:09:59 AM DEBUG - searching for deltas in comment cqwsr1o
+03:09:59 AM DEBUG - searching for deltas in comment cqwsr0w
+03:09:59 AM DEBUG - searching for deltas in comment cqwsqn4
+03:09:59 AM DEBUG - searching for deltas in comment cqwsqmj
+03:09:59 AM DEBUG - searching for deltas in comment cqwsq90
+03:09:59 AM DEBUG - DELTA FOUND
+03:09:59 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:00 AM DEBUG - looking for previous deltas in History
+03:10:00 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:00 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:00 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:00 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:00 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:00 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:00 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:00 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:00 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:00 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:00 AM DEBUG - DELTA FOUND
+03:10:00 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:00 AM DEBUG - looking for previous deltas in History
+03:10:00 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:00 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:00 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:00 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:00 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:00 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:00 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:00 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:00 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:00 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:00 AM DEBUG - DELTA FOUND
+03:10:00 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:00 AM DEBUG - looking for previous deltas in History
+03:10:00 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:00 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:00 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:00 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:00 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:00 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:00 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:00 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:00 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:00 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:00 AM DEBUG - DELTA FOUND
+03:10:00 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:00 AM DEBUG - looking for previous deltas in History
+03:10:00 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:00 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:00 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:00 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:00 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:00 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:00 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:00 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:00 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:00 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:00 AM DEBUG - DELTA FOUND
+03:10:00 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:00 AM DEBUG - looking for previous deltas in History
+03:10:00 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:00 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:00 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:00 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:00 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:00 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:00 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:00 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:00 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:00 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:00 AM DEBUG - DELTA FOUND
+03:10:00 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:00 AM DEBUG - looking for previous deltas in History
+03:10:00 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:00 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:00 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:00 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:00 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:00 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:00 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:00 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:00 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:00 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:00 AM DEBUG - DELTA FOUND
+03:10:00 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:00 AM DEBUG - looking for previous deltas in History
+03:10:00 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:01 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:01 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:01 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:01 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:01 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:01 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:01 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:01 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:01 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:01 AM DEBUG - DELTA FOUND
+03:10:01 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:01 AM DEBUG - looking for previous deltas in History
+03:10:01 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:01 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:01 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:01 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:01 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:01 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:01 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:01 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:01 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:01 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:01 AM DEBUG - DELTA FOUND
+03:10:01 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:01 AM DEBUG - looking for previous deltas in History
+03:10:01 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:01 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:01 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:01 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:01 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:01 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:01 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:01 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:01 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:01 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:01 AM DEBUG - DELTA FOUND
+03:10:01 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:01 AM DEBUG - looking for previous deltas in History
+03:10:01 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:01 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:01 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:01 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:01 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:01 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:01 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:01 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:01 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:01 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:01 AM DEBUG - DELTA FOUND
+03:10:01 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:01 AM DEBUG - looking for previous deltas in History
+03:10:01 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:01 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:01 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:01 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:01 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:01 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:01 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:01 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:01 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:01 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:01 AM DEBUG - DELTA FOUND
+03:10:01 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:01 AM DEBUG - looking for previous deltas in History
+03:10:01 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:01 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:01 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:01 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:01 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:01 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:01 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:01 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:01 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:01 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:01 AM DEBUG - DELTA FOUND
+03:10:01 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:01 AM DEBUG - looking for previous deltas in History
+03:10:01 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:02 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:02 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:02 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:02 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:02 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:02 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:02 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:02 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:02 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:02 AM DEBUG - DELTA FOUND
+03:10:02 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:02 AM DEBUG - looking for previous deltas in History
+03:10:02 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:02 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:02 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:02 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:02 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:02 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:02 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:02 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:02 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:02 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:02 AM DEBUG - DELTA FOUND
+03:10:02 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:02 AM DEBUG - looking for previous deltas in History
+03:10:02 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:02 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:02 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:02 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:02 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:02 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:02 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:02 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:02 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:02 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:02 AM DEBUG - DELTA FOUND
+03:10:02 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:02 AM DEBUG - looking for previous deltas in History
+03:10:02 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:02 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:02 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:02 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:02 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:02 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:02 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:02 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:02 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:02 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:02 AM DEBUG - DELTA FOUND
+03:10:02 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:02 AM DEBUG - looking for previous deltas in History
+03:10:02 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:02 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:02 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:02 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:02 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:02 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:02 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:02 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:02 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:02 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:02 AM DEBUG - DELTA FOUND
+03:10:02 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:02 AM DEBUG - looking for previous deltas in History
+03:10:02 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:02 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:02 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:02 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:02 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:02 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:02 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:02 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:02 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:02 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:02 AM DEBUG - DELTA FOUND
+03:10:02 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:02 AM DEBUG - looking for previous deltas in History
+03:10:02 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:03 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:03 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:03 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:03 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:03 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:03 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:03 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:03 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:03 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:03 AM DEBUG - DELTA FOUND
+03:10:03 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:03 AM DEBUG - looking for previous deltas in History
+03:10:03 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:03 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:03 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:03 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:03 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:03 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:03 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:03 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:03 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:03 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:03 AM DEBUG - DELTA FOUND
+03:10:03 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:03 AM DEBUG - looking for previous deltas in History
+03:10:03 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:03 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:03 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:03 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:03 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:03 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:03 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:03 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:03 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:03 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:03 AM DEBUG - DELTA FOUND
+03:10:03 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:03 AM DEBUG - looking for previous deltas in History
+03:10:03 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:03 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:03 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:03 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:03 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:03 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:03 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:03 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:03 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:03 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:03 AM DEBUG - DELTA FOUND
+03:10:03 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:03 AM DEBUG - looking for previous deltas in History
+03:10:03 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:03 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:03 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:03 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:03 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:03 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:03 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:03 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:03 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:03 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:03 AM DEBUG - DELTA FOUND
+03:10:03 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:03 AM DEBUG - looking for previous deltas in History
+03:10:03 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:03 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:03 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:03 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:03 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:03 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:03 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:03 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:03 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:03 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:03 AM DEBUG - DELTA FOUND
+03:10:03 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:03 AM DEBUG - looking for previous deltas in History
+03:10:03 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:04 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:04 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:04 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:04 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:04 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:04 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:04 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:04 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:04 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:04 AM DEBUG - DELTA FOUND
+03:10:04 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:04 AM DEBUG - looking for previous deltas in History
+03:10:04 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:04 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:04 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:04 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:04 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:04 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:04 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:04 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:04 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:04 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:04 AM DEBUG - DELTA FOUND
+03:10:04 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:04 AM DEBUG - looking for previous deltas in History
+03:10:04 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:04 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:04 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:04 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:04 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:04 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:04 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:04 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:04 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:04 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:04 AM DEBUG - DELTA FOUND
+03:10:04 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:04 AM DEBUG - looking for previous deltas in History
+03:10:04 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:04 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:04 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:04 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:04 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:04 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:04 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:04 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:04 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:04 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:04 AM DEBUG - DELTA FOUND
+03:10:04 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:04 AM DEBUG - looking for previous deltas in History
+03:10:04 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:04 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:04 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:04 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:04 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:04 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:04 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:04 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:04 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:04 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:04 AM DEBUG - DELTA FOUND
+03:10:04 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:04 AM DEBUG - looking for previous deltas in History
+03:10:04 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:04 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:04 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:04 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:04 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:04 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:04 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:04 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:04 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:04 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:04 AM DEBUG - DELTA FOUND
+03:10:04 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:04 AM DEBUG - looking for previous deltas in History
+03:10:04 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:04 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:04 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:04 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:04 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:04 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:04 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:04 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:04 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:04 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:04 AM DEBUG - DELTA FOUND
+03:10:04 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:05 AM DEBUG - looking for previous deltas in History
+03:10:05 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:05 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:05 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:05 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:05 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:05 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:05 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:05 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:05 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:05 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:05 AM DEBUG - DELTA FOUND
+03:10:05 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:05 AM DEBUG - looking for previous deltas in History
+03:10:05 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:05 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:05 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:05 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:05 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:05 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:05 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:05 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:05 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:05 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:05 AM DEBUG - DELTA FOUND
+03:10:05 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:05 AM DEBUG - looking for previous deltas in History
+03:10:05 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:05 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:05 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:05 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:05 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:05 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:05 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:05 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:05 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:05 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:05 AM DEBUG - DELTA FOUND
+03:10:05 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:05 AM DEBUG - looking for previous deltas in History
+03:10:05 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:05 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:05 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:05 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:05 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:05 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:05 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:05 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:05 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:05 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:05 AM DEBUG - DELTA FOUND
+03:10:05 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:05 AM DEBUG - looking for previous deltas in History
+03:10:05 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:05 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:05 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:05 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:05 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:05 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:05 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:05 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:05 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:05 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:05 AM DEBUG - DELTA FOUND
+03:10:05 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:05 AM DEBUG - looking for previous deltas in History
+03:10:05 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:05 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:05 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:05 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:05 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:05 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:05 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:05 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:05 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:05 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:05 AM DEBUG - DELTA FOUND
+03:10:05 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:06 AM DEBUG - looking for previous deltas in History
+03:10:06 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:06 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:06 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:06 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:06 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:06 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:06 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:06 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:06 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:06 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:06 AM DEBUG - DELTA FOUND
+03:10:06 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:06 AM DEBUG - looking for previous deltas in History
+03:10:06 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:06 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:06 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:06 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:06 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:06 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:06 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:06 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:06 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:06 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:06 AM DEBUG - DELTA FOUND
+03:10:06 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:06 AM DEBUG - looking for previous deltas in History
+03:10:06 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:06 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:06 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:06 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:06 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:06 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:06 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:06 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:06 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:06 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:06 AM DEBUG - DELTA FOUND
+03:10:06 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:06 AM DEBUG - looking for previous deltas in History
+03:10:06 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:06 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:06 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:06 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:06 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:06 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:06 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:06 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:06 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:06 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:06 AM DEBUG - DELTA FOUND
+03:10:06 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:06 AM DEBUG - looking for previous deltas in History
+03:10:06 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:06 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:06 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:06 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:06 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:06 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:06 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:06 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:06 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:06 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:06 AM DEBUG - DELTA FOUND
+03:10:06 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:06 AM DEBUG - looking for previous deltas in History
+03:10:06 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:06 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:06 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:06 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:06 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:06 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:06 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:06 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:06 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:06 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:06 AM DEBUG - DELTA FOUND
+03:10:06 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:06 AM DEBUG - looking for previous deltas in History
+03:10:06 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:07 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:07 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:07 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:07 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:07 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:07 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:07 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:07 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:07 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:07 AM DEBUG - DELTA FOUND
+03:10:07 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:07 AM DEBUG - looking for previous deltas in History
+03:10:07 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:07 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:07 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:07 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:07 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:07 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:07 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:07 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:07 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:07 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:07 AM DEBUG - DELTA FOUND
+03:10:07 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:07 AM DEBUG - looking for previous deltas in History
+03:10:07 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:07 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:07 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:07 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:07 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:07 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:07 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:07 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:07 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:07 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:07 AM DEBUG - DELTA FOUND
+03:10:07 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:07 AM DEBUG - looking for previous deltas in History
+03:10:07 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:07 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:07 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:07 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:07 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:07 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:07 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:07 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:07 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:07 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:07 AM DEBUG - DELTA FOUND
+03:10:07 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:07 AM DEBUG - looking for previous deltas in History
+03:10:07 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:07 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:07 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:07 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:07 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:07 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:07 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:07 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:07 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:07 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:07 AM DEBUG - DELTA FOUND
+03:10:07 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:07 AM DEBUG - looking for previous deltas in History
+03:10:07 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:07 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:07 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:07 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:07 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:07 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:07 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:07 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:07 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:07 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:07 AM DEBUG - DELTA FOUND
+03:10:07 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:07 AM DEBUG - looking for previous deltas in History
+03:10:07 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:08 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:08 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:08 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:08 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:08 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:08 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:08 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:08 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:08 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:08 AM DEBUG - DELTA FOUND
+03:10:08 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:08 AM DEBUG - looking for previous deltas in History
+03:10:08 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:08 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:08 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:08 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:08 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:08 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:08 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:08 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:08 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:08 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:08 AM DEBUG - DELTA FOUND
+03:10:08 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:08 AM DEBUG - looking for previous deltas in History
+03:10:08 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:08 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:08 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:08 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:08 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:08 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:08 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:08 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:08 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:08 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:08 AM DEBUG - DELTA FOUND
+03:10:08 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:08 AM DEBUG - looking for previous deltas in History
+03:10:08 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:08 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:08 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:08 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:08 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:08 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:08 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:08 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:08 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:08 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:08 AM DEBUG - DELTA FOUND
+03:10:08 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:08 AM DEBUG - looking for previous deltas in History
+03:10:08 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:08 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:08 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:08 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:08 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:08 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:08 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:08 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:08 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:08 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:08 AM DEBUG - DELTA FOUND
+03:10:08 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:08 AM DEBUG - looking for previous deltas in History
+03:10:08 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:08 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:08 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:08 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:08 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:08 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:08 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:08 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:08 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:08 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:08 AM DEBUG - DELTA FOUND
+03:10:08 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:08 AM DEBUG - looking for previous deltas in History
+03:10:08 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:09 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:09 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:09 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:09 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:09 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:09 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:09 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:09 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:09 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:09 AM DEBUG - DELTA FOUND
+03:10:09 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:09 AM DEBUG - looking for previous deltas in History
+03:10:09 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:09 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:09 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:09 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:09 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:09 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:09 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:09 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:09 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:09 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:09 AM DEBUG - DELTA FOUND
+03:10:09 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:09 AM DEBUG - looking for previous deltas in History
+03:10:09 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:09 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:09 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:09 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:09 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:09 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:09 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:09 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:09 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:09 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:09 AM DEBUG - DELTA FOUND
+03:10:09 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:09 AM DEBUG - looking for previous deltas in History
+03:10:09 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:09 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:09 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:09 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:09 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:09 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:09 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:09 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:09 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:09 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:09 AM DEBUG - DELTA FOUND
+03:10:09 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:09 AM DEBUG - looking for previous deltas in History
+03:10:09 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:09 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:09 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:09 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:09 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:09 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:09 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:09 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:09 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:09 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:09 AM DEBUG - DELTA FOUND
+03:10:09 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:09 AM DEBUG - looking for previous deltas in History
+03:10:09 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:09 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:09 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:09 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:09 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:09 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:09 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:09 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:09 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:09 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:09 AM DEBUG - DELTA FOUND
+03:10:09 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:09 AM DEBUG - looking for previous deltas in History
+03:10:09 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:10 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:10 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:10 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:10 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:10 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:10 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:10 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:10 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:10 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:10 AM DEBUG - DELTA FOUND
+03:10:10 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:10 AM DEBUG - looking for previous deltas in History
+03:10:10 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:10 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:10 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:10 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:10 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:10 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:10 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:10 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:10 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:10 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:10 AM DEBUG - DELTA FOUND
+03:10:10 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:10 AM DEBUG - looking for previous deltas in History
+03:10:10 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:10 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:10 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:10 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:10 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:10 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:10 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:10 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:10 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:10 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:10 AM DEBUG - DELTA FOUND
+03:10:10 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:10 AM DEBUG - looking for previous deltas in History
+03:10:10 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:10 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:10 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:10 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:10 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:10 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:10 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:10 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:10 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:10 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:10 AM DEBUG - DELTA FOUND
+03:10:10 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:10 AM DEBUG - looking for previous deltas in History
+03:10:10 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:10 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:10 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:10 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:10 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:10 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:10 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:10 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:10 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:10 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:10 AM DEBUG - DELTA FOUND
+03:10:10 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:10 AM DEBUG - looking for previous deltas in History
+03:10:10 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:10 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:10 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:10 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:10 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:10 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:10 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:10 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:10 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:10 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:10 AM DEBUG - DELTA FOUND
+03:10:10 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:10 AM DEBUG - looking for previous deltas in History
+03:10:10 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:10 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:10 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:10 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:10 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:10 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:10 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:10 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:10 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:11 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:11 AM DEBUG - DELTA FOUND
+03:10:11 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:11 AM DEBUG - looking for previous deltas in History
+03:10:11 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:11 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:11 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:11 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:11 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:11 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:11 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:11 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:11 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:11 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:11 AM DEBUG - DELTA FOUND
+03:10:11 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:11 AM DEBUG - looking for previous deltas in History
+03:10:11 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:11 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:11 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:11 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:11 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:11 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:11 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:11 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:11 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:11 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:11 AM DEBUG - DELTA FOUND
+03:10:11 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:11 AM DEBUG - looking for previous deltas in History
+03:10:11 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:10:11 AM DEBUG - searching for deltas in comment cqwtgwm
+03:10:24 AM DEBUG - searching for deltas in comment cqwt5wh
+03:10:24 AM DEBUG - searching for deltas in comment cqwt5l3
+03:10:24 AM DEBUG - searching for deltas in comment cqwt5ki
+03:10:24 AM DEBUG - searching for deltas in comment cqwsr1o
+03:10:24 AM DEBUG - searching for deltas in comment cqwsr0w
+03:10:24 AM DEBUG - searching for deltas in comment cqwsqn4
+03:10:24 AM DEBUG - searching for deltas in comment cqwsqmj
+03:10:24 AM DEBUG - searching for deltas in comment cqwsq90
+03:10:24 AM DEBUG - DELTA FOUND
+03:10:24 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:10:26 AM INFO - Starting new HTTP connection (4): www.reddit.com
+03:10:26 AM DEBUG - "GET /comments/34pa3d/_/cqwsq90.json HTTP/1.1" 200 1619
+03:10:28 AM DEBUG - "GET /user/slomobob/about/.json HTTP/1.1" 200 None
+03:10:32 AM INFO - Starting new HTTP connection (5): www.reddit.com
+03:10:32 AM DEBUG - "GET /api/info/.json?id=t1_cqwsq16 HTTP/1.1" 200 468
+03:10:34 AM DEBUG - "GET /user/dBotSubII/about/.json HTTP/1.1" 200 None
+03:10:34 AM DEBUG - looking for previous deltas in History
+03:10:34 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:16:04 AM INFO - Starting new HTTP connection (2): www.reddit.com
+03:16:04 AM DEBUG - "GET /r/slomobob/comments/.json?limit=1024 HTTP/1.1" 200 6119
+03:16:05 AM DEBUG - searching for deltas in comment cqwtgwm
+03:16:05 AM DEBUG - searching for deltas in comment cqwt5wh
+03:16:05 AM DEBUG - searching for deltas in comment cqwt5l3
+03:16:05 AM DEBUG - searching for deltas in comment cqwt5ki
+03:16:05 AM DEBUG - searching for deltas in comment cqwsr1o
+03:16:05 AM DEBUG - searching for deltas in comment cqwsr0w
+03:16:05 AM DEBUG - searching for deltas in comment cqwsqn4
+03:16:05 AM DEBUG - searching for deltas in comment cqwsqmj
+03:16:05 AM DEBUG - searching for deltas in comment cqwsq90
+03:16:05 AM DEBUG - DELTA FOUND
+03:16:05 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:16:06 AM DEBUG - "GET /comments/34pa3d/_/cqwsq90.json HTTP/1.1" 200 1619
+03:16:08 AM DEBUG - "GET /user/slomobob/about/.json HTTP/1.1" 200 None
+03:16:12 AM INFO - Starting new HTTP connection (3): www.reddit.com
+03:16:12 AM DEBUG - "GET /api/info/.json?id=t1_cqwsq16 HTTP/1.1" 200 469
+03:16:14 AM DEBUG - "GET /user/dBotSubII/about/.json HTTP/1.1" 200 None
+03:16:14 AM DEBUG - looking for previous deltas in History
+03:16:14 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:16:45 AM DEBUG - "GET /r/slomobob/comments/.json?limit=1024 HTTP/1.1" 200 6116
+03:16:45 AM DEBUG - searching for deltas in comment cqwtgwm
+03:16:45 AM DEBUG - searching for deltas in comment cqwt5wh
+03:16:45 AM DEBUG - searching for deltas in comment cqwt5l3
+03:16:45 AM DEBUG - searching for deltas in comment cqwt5ki
+03:16:45 AM DEBUG - searching for deltas in comment cqwsr1o
+03:16:45 AM DEBUG - searching for deltas in comment cqwsr0w
+03:16:45 AM DEBUG - searching for deltas in comment cqwsqn4
+03:16:45 AM DEBUG - searching for deltas in comment cqwsqmj
+03:16:45 AM DEBUG - searching for deltas in comment cqwsq90
+03:16:45 AM DEBUG - DELTA FOUND
+03:16:45 AM DEBUG - Checking for correct comment author and position of cqwsq90
+03:16:46 AM DEBUG - "GET /comments/34pa3d/_/cqwsq90.json HTTP/1.1" 200 1617
+03:16:48 AM DEBUG - "GET /user/slomobob/about/.json HTTP/1.1" 200 None
+03:16:52 AM INFO - Starting new HTTP connection (4): www.reddit.com
+03:16:52 AM DEBUG - "GET /api/info/.json?id=t1_cqwsq16 HTTP/1.1" 200 470
+03:16:54 AM DEBUG - "GET /user/dBotSubII/about/.json HTTP/1.1" 200 None
+03:16:54 AM DEBUG - looking for previous deltas in History
+03:16:54 AM ERROR - Error Code object of type 'NoneType' has no len()
+03:17:03 AM INFO - Starting new HTTP connection (5): www.reddit.com
+03:17:03 AM DEBUG - "GET /r/slomobob/about/.json HTTP/1.1" 200 508
