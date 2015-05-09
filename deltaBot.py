@@ -30,7 +30,7 @@ comments = sub.get_comments()
 historyDB = sqlite3.connect('commentHistory.db')
 sqlCursor = historyDB.cursor()
 sqlCursor.execute("CREATE TABLE IF NOT EXISTS History(HasDelta INT, Comment_id TEXT, Date INT);")
-sqlCursor.execute("CREATE VIEW IF NOT EXISTS deltaHistory AS SELECT * FROM History WHERE HasDelta=1;")
+sqlCursor.execute("CREATE VIEW IF NOT EXISTS deltaView AS SELECT * FROM History WHERE HasDelta=1;")
 historyDB.commit()
 
 def set_History(id, hasDelta=False):
@@ -41,8 +41,8 @@ def get_History(id):
     sqlCursor.execute("SELECT * FROM History WHERE Comment_id='%s';" % id)
     return sqlCursor.fetchone()
 
-def get_deltaHistory(id):
-    sqlCursor.execute("SELECT * FROM deltaHistory WHERE Comment_id='%s';" % id)
+def get_deltaView(id):
+    sqlCursor.execute("SELECT * FROM deltaView WHERE Comment_id='%s';" % id)
     return sqlCursor.fetchone()
 
 ### /HISTORY ###
@@ -109,11 +109,11 @@ def correct_author(comment):
 
 def is_unique_delta(comment):
     logging.debug("looking for previous deltas in History")
-    if len(get_deltaHistory(comment.parent_id)) is not 0:
-        logging.debug("DELTA NOT UNIQUE")
-        return False
-    logging.info("DELTA UNIQUE")
-    return True
+    if get_deltaView(comment.parent_id) is None:
+        logging.info("DELTA UNIQUE")
+        return True
+    logging.debug("DELTA NOT UNIQUE")
+    return False
 
 def is_proper_length(comment):
     logging.debug("checking if long enough")
@@ -125,9 +125,9 @@ def is_proper_length(comment):
 ### /CHECKS ###
 
 
-def add_to_deltaHistory(deltaComment):
+def set_parent_delta(deltaComment):
     """sets id Delta to True (+add to history if not found) AND reply to say so"""
-    logging.info("Adding %s to deltaHistory" % deltaComment.parent_id)
+    logging.info("Adding %s to deltaView" % deltaComment.parent_id)
     not_in_history(deltaComment.id)
     sqlCursor.execute("UPDATE History SET Delta=1 WHERE Comment_id='%s'" % deltaComment.parent_id)
     historyDB.commit()
@@ -159,7 +159,7 @@ def main(comments):
     for comment in comments:
         if all(func(comment) for func in checks):                  #True if all checking functions are True. Short circuits, too
             parentComment = r.get_info(thing_id=comment.parent_id)       #good thing praw caches everything...
-            add_to_deltaHistory(parentComment)
+            set_parent_delta(parentComment)
             increment_flair(parentComment.author)           
 
 
