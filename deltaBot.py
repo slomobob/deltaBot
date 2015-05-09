@@ -71,7 +71,7 @@ rootLogger.addHandler(consoleHandler)
 ### CHECKS ###
 def not_in_history(comment):
     """checks in history for a comment and adds it if not found"""
-    universalID = u't1_' + comment.id           #Why can't comment.parent_id and comment.id jsut return values formatted the same? 
+    universalID = make_UID(comment.id)           #Why can't comment.parent_id and comment.id jsut return values formatted the same? 
     if get_History(universalID):
         set_History(universalID, False)
         return False
@@ -96,7 +96,7 @@ def delta_search(comment):
             logging.debug("DELTA FOUND")
             return True
         elif loc == None:
-            logging.error("NONTYPES ARE BITCHES")
+            logging.error("NONETYPES ARE BITCHES")
     return False
 
 def correct_author(comment):
@@ -124,14 +124,20 @@ def is_proper_length(comment):
 
 ### /CHECKS ###
 
+def make_UID(id):
+    """COMMENTS ONLY"""
+    if id[0:3] == "t1_":
+        return id
+    return u't1_' + id
 
 def set_parent_delta(deltaComment):
-    """sets id Delta to True (+add to history if not found) AND reply to say so"""
+    """sets parent's Delta to True (+add to history if not found) AND reply to say so"""
+    parent = r.get_info(thing_id=deltaComment.parent_id)                    #GODDAMN maybe should just pass it in
     logging.info("Adding %s to deltaView" % deltaComment.parent_id)
-    not_in_history(deltaComment.id)
+    not_in_history(parent)                                                  #just in case. Maybe should throw an error?
     sqlCursor.execute("UPDATE History SET Delta=1 WHERE Comment_id='%s'" % deltaComment.parent_id)
     historyDB.commit()
-    deltaComment.reply(MESSAGES["confirmation"].format(r.get_info(thing_id=deltaComment.parent_id).author.name))         #GODDAMN maybe should just pass it in
+    deltaComment.reply(MESSAGES["confirmation"].format(parent.author.name))         
 
 def increment_flair(user,comment):
     logging.info("Incrementing flair for %s" % user.name)

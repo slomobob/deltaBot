@@ -27,3 +27,20 @@
 01:28:19 AM DEBUG - looking for previous deltas in History
 01:28:19 AM ERROR - Error Code object of type 'NoneType' has no len()
 01:28:19 AM ERROR - Waiting for you to notice
+01:37:24 AM INFO - Starting new HTTP connection (2): www.reddit.com
+01:37:24 AM DEBUG - "GET /r/slomobob/comments/.json?limit=1024 HTTP/1.1" 200 6117
+01:37:25 AM DEBUG - searching for deltas in comment cqwsq16
+01:37:25 AM DEBUG - searching for deltas in comment cqwsp0f
+01:37:25 AM DEBUG - DELTA FOUND
+01:37:25 AM DEBUG - Checking for correct comment author and position of cqwsp0f
+01:37:26 AM DEBUG - "GET /comments/34pa3d/_/cqwsp0f.json HTTP/1.1" 200 920
+01:37:28 AM DEBUG - "GET /user/slomobob/about/.json HTTP/1.1" 200 None
+01:37:32 AM INFO - Starting new HTTP connection (3): www.reddit.com
+01:37:32 AM DEBUG - "GET /api/info/.json?id=t1_cqwsobt HTTP/1.1" 200 483
+01:37:34 AM DEBUG - "GET /user/dBotSubIII/about/.json HTTP/1.1" 200 None
+01:37:34 AM DEBUG - looking for previous deltas in History
+01:37:34 AM INFO - DELTA UNIQUE
+01:37:34 AM DEBUG - checking if long enough
+01:37:34 AM INFO - Adding t3_34pa3d to deltaView
+01:37:34 AM ERROR - Error Code 'unicode' object has no attribute 'id'
+01:37:34 AM ERROR - Waiting for you to notice
