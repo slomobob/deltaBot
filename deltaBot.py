@@ -1,6 +1,6 @@
 import praw, logging, time, sqlite3, json
 from logging.handlers import TimedRotatingFileHandler
-from modules import *
+#from modules import *
 
 def read_json(path):
 	with open(path,"r") as json_msg:
@@ -29,8 +29,8 @@ comments = sub.get_comments()
 
 historyDB = sqlite3.connect('commentHistory.db')
 sqlCursor = historyDB.cursor()
-sqlCursor.execute("CREATE TABLE IF NOT EXISTS History(HasDelta INT, Comment_id TEXT, Date INT);")
-sqlCursor.execute("CREATE VIEW IF NOT EXISTS deltaView AS SELECT * FROM History WHERE HasDelta=1;")
+sqlCursor.execute("CREATE TABLE IF NOT EXISTS History(Delta INT, Comment_id TEXT, Date INT);")
+sqlCursor.execute("CREATE VIEW IF NOT EXISTS deltaView AS SELECT * FROM History WHERE Delta=1;")
 historyDB.commit()
 
 def set_History(id, hasDelta=False):
@@ -73,8 +73,8 @@ def not_in_history(comment):
     """checks in history for a comment and adds it if not found"""
     universalID = make_UID(comment.id)           #Why can't comment.parent_id and comment.id jsut return values formatted the same? 
     if get_History(universalID):
-        set_History(universalID, False)
         return False
+    set_History(universalID, False)
     return True
 
 def is_not_deleted(comment):
@@ -130,16 +130,20 @@ def make_UID(id):
         return id
     return u't1_' + id
 
-def set_parent_delta(deltaComment):
+def set_delta(deltaComment,childComment):
     """sets parent's Delta to True (+add to history if not found) AND reply to say so"""
-    parent = r.get_info(thing_id=deltaComment.parent_id)                    #GODDAMN maybe should just pass it in
-    logging.info("Adding %s to deltaView" % deltaComment.parent_id)
-    not_in_history(parent)                                                  #just in case. Maybe should throw an error?
-    sqlCursor.execute("UPDATE History SET Delta=1 WHERE Comment_id='%s'" % deltaComment.parent_id)
+    uid = childComment.parent_id
+    logging.info("Adding %s to deltaView" % uid)
+    not_in_history(deltaComment)                                                  #just in case. Maybe should throw an error?
+    sqlCursor.execute("UPDATE History SET Delta=1 WHERE Comment_id='%s'" % uid)
     historyDB.commit()
-    deltaComment.reply(MESSAGES["confirmation"].format(parent.author.name))         
+    try:
+        childComment.reply(MESSAGES["confirmation"].format(deltaComment.author.name))
+    except:
+        logging.warning("set_delta reply fuckup @ %s's giver, probably just a hissy fit" % uid)
+             
 
-def increment_flair(user,comment):
+def increment_flair(user):
     logging.info("Incrementing flair for %s" % user.name)
     flair = sub.get_flair(user)
     flairText = flair[u'flair_text']
@@ -165,7 +169,7 @@ def main(comments):
     for comment in comments:
         if all(func(comment) for func in checks):                  #True if all checking functions are True. Short circuits, too
             parentComment = r.get_info(thing_id=comment.parent_id)       #good thing praw caches everything...
-            set_parent_delta(parentComment)
+            set_delta(parentComment,comment)
             increment_flair(parentComment.author)           
 
 
