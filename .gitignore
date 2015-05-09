@@ -7,7 +7,7 @@
 *.sln.docstates
 **/config.json
 !**/*.example
-**/mars.log
+**/mars.log*
 
 # Build results
 [Dd]ebug/

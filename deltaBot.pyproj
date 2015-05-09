@@ -32,13 +32,13 @@
     <Folder Include="settings\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="logs\mars.log">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="settings\config.json">
       <SubType>Code</SubType>
     </Content>
     <Content Include="settings\config.json.example" />
-    <Content Include="logs\mars.log">
-      <SubType>Code</SubType>
-    </Content>
     <Content Include="settings\messages.json">
       <Publish>True</Publish>
     </Content>
